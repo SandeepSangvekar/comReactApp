@@ -1,0 +1,72 @@
+.contact-form .input-group{
+    margin-bottom: 1rem;
+  }
+   .contact-form .input-group:last-child{
+    margin-bottom: 0rem;
+  }
+  .contact-form{
+    padding: 1rem;
+    border-radius: 20px;
+  }
+  .contact-form h5{
+    color: #407BFF;
+  }
+  .contact-form .input-group input, .contact-form .input-group textarea{
+    background-color: #F7FAFF;
+    border: none;
+  }
+  .contact-form .input-group .contactButton{
+    background-color: #7FB5FB;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 3rem;
+  }
+  .contact-detail{
+    background: white;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+  .contact-wrapper{
+    background-color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+  }
+  .detailList h6{
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .detailList .contact-txt{
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: 200;
+  }
+  
+  .contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns: first wider, second narrower */
+    gap:20px;
+    /* height: 100vh;  */
+  }
+  
+  .left-column {
+    background: white;
+  }
+  
+  .right-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr; /* Two rows of equal height */
+    gap: 20px;
+  }
+  .map-border-img{
+    background: url(../public/images/map-border.png) no-repeat;
+    height: 20px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  /* contact css */
+  

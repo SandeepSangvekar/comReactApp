@@ -1,0 +1,68 @@
+/* career css */
+.career-banner img{
+  
+}
+.career-content{
+  background-color: #000000;
+  padding: 3rem;
+  color: #ffffff;
+}
+.career-content p{
+  margin-bottom: 0;
+}
+.career-content2{
+  background: url(../public/images/career-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 420px;
+  background-position: center center;
+}
+.tringle-box{
+  background-color: #5F2DEE;
+  min-height: 420px;
+  width: 50%;
+  float: right;
+  padding: 2rem;
+  color: #ffffff;
+  position: relative;
+  clip-path: polygon(100% 100%, 100% 0%, 0% 100%);
+}
+.tringle-box h4{
+  position: absolute;
+  bottom: 6%;
+  left: 30%;
+  text-align: left;
+  text-align: justify;
+  right: 10%;
+}
+.career-text p{
+  margin-bottom: 0;
+}
+
+.career-content4{
+  background-color: #F8F8F8;
+}
+.left-car-content h3 {
+  font-size: 2rem;
+  background: linear-gradient(50deg, #5F2DEE, #0EE2F6);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 1.5rem;
+}
+.left-car-content p {
+  line-height: 28px;
+  margin-bottom: 3rem;
+}
+.left-car-content .newsletter-form .input-group{
+  max-width: 80%;
+}
+.left-car-content .newsletter-form form{
+  width: 100%;
+}
+.right-car-img{
+  text-align: right;
+}
+.right-car-img img{
+  height: 450px;
+}
+/* career css */

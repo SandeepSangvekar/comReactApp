@@ -1,0 +1,135 @@
+
+.services-section{
+   
+}
+.ser-bg{
+    background-color: black;
+    /* padding-top: 2rem; */
+    padding-bottom: 4rem;
+    height: 1000px;
+}
+.corner-shelf{
+  /* background: url(../public/images/corner-shelf.png) no-repeat; */
+  height: 65px;
+  /* background-size: contain; */
+  /* background-position: center center; */
+}
+.corner-shelf img{
+    width: 270px;
+}
+.service-headContent{
+    text-align: center;
+    color: white;
+    margin-bottom: 4rem;
+    
+}
+.vert-card-center{
+    /* display: flex;
+    justify-content: center; */
+    
+}
+.vert-card{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 1.3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    min-height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vert-mt{
+    margin-top: 6rem;
+}
+.vert-card-img{
+    text-align: center;
+    padding: 2rem;
+}
+.vert-card-img img{
+    width: 55px;
+}
+.vert-card-content h4{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.vert-card-content p{
+    text-align: justify;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.grid{
+    display: grid;
+    gap: 1rem;
+}
+.mob-icon-grp{
+    display: flex;
+    column-gap: 1rem;
+}
+.mob-icon-grp img{
+    width: 50px;
+}
+.msg-img img{
+    width: 150px;
+}
+.mobApp-section{
+    margin-top: 2rem;
+}
+.mob-title{
+    color: #407BFF;
+    font-size: 4.2rem;
+    font-weight: 400;
+}
+.mob-content p{
+    text-align: justify;
+    margin-bottom: 6rem;
+}
+.mob-content h3{
+    color: #000000;
+    font-size: 4.2rem;
+    font-weight: 400;
+    margin-bottom: 5rem ;
+}
+.toolTechSection{
+    background-color: #000000;
+    padding: 4rem 0;
+    border-top: 8px solid transparent; /* Reserve space for the gradient */
+    border-image: linear-gradient(90deg, #5F2DEE, #0EE2F6) 1;
+    padding: 3rem 0; /* Adjust as needed */
+}
+.toolTechSection h3 {
+    font-size: 2rem; /* Adjust as needed */
+    background: linear-gradient(50deg, #5F2DEE, #0EE2F6);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.toolTech-img{
+    text-align: center;
+}
+.toolTech-img img{
+    width: 75%;
+}
+.mid-img-position{
+    position: relative;
+}
+.mob-with-hand{
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+    width: 382px;
+}
+
+@media (max-width: 767.98px) {
+    .mob-with-hand{
+        position:static;
+        width: auto;
+    }
+    .ser-bg{
+        height: auto;
+    }
+    .vert-mt{
+        margin-top: 0;
+    }
+}
