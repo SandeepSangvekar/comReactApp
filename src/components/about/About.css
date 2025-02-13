@@ -1,0 +1,144 @@
+/* about section */
+.aboutSec{
+    background: #EAEAEA;
+  }
+  /* .innerText-img{
+    display: block;
+  } */
+.abt-bn-content img{
+    /* width: 530px; */
+    width: 450px;
+}
+/* .bg-dark {
+    background: linear-gradient(to bottom, #212121, #000000);
+  }
+  
+  .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+   */
+
+   /* Scroll Container */
+   .title {
+    background: linear-gradient(90deg, #5F2DEE, #0EE2F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #ff4d4d;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  .about2nd-sec{
+    width: 100%;
+    background: #111;
+    /* padding: 4rem 2rem; */
+    padding: 4rem 0rem;
+  }
+  .abt-top-content{
+    padding: 0 3rem;
+  }
+.scroll-container {
+    overflow-x: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    /* background: #111;
+    padding: 30px; */
+  }
+  
+  .scroll-content {
+    display: flex;
+    animation: scroll-animation 12s linear infinite;
+    animation-play-state: running;
+  }
+  
+  
+  .scroll-card {
+    flex: 0 0 250px;
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    white-space: normal;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .scroll-card:hover {
+    transform: scale(1.05); /* Optional hover effect */
+  }
+  
+  /* Pause scroll animation when hovering over the container */
+  .scroll-container:hover .scroll-content {
+    animation-play-state: paused;
+  }
+  
+  .scroll-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .scroll-card p {
+    font-size: 14px;
+    color: #666;
+    word-wrap: break-word;
+  }
+  
+  @keyframes scroll-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  
+  /* about section */
+  .line-group{
+    display: grid;
+    gap:1.5rem;
+  }
+  .left-line{
+    width: 70%;
+    height: 27px;
+    border-radius: 0px 12px 12px 0px;
+    background: #e0e9fe;
+  }
+  .right-line{
+    width: 70%;
+    height: 27px;
+    border-radius: 12px 0px 0px 12px;
+    background: #e0e9fe;
+    justify-self: end;
+  }

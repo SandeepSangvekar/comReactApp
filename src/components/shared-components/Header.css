@@ -1,0 +1,22 @@
+.header{
+    padding: 1rem 0;
+    background-color: #ffffff;
+}
+  .navbar-nav {
+    background-color: #f8f9fa;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 0 15px !important;
+  
+  }
+  .navbar-nav .nav-link{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
