@@ -1,0 +1,25 @@
+{
+    "productsSection": {
+      "backgroundImage": "../../public/images/corner-shelf.png",
+      "content": {
+        "heading": "Yard Management System",
+        "description": "Efficient yard management is a critical component of logistics and supply chain operations. As the demand for streamlined processes and real-time visibility increases, organizations are turning to yard management systems (YMS) to optimize their yard operations. YMS products offer a comprehensive suite of features and functionalities to enhance asset tracking, inventory management, and overall yard efficiency Our yard management solution combines advanced asset tracking and inventory management to optimize yard operations, ensuring efficiency and real-time visibility for streamlined logistics and supply chain processes."
+      },
+      "features": [
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Data-driven insights"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Real-time visibility"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Safety"
+        }
+      ],
+      "productImage": "../../public/images/yms-prod.webp"
+    }
+  }
+  

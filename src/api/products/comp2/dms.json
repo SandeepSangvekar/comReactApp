@@ -1,0 +1,32 @@
+{
+    "sectionTitle": {
+        "mainText": "Dealer",
+        "highlight": "Highlights",
+        "subText": "Management System"   
+    },
+    "features1": [
+        {
+            "title": "Centralized Inventory Management",
+            "description": "Enables real-time tracking of vehicle inventory, including acquisition, sales, and stock levels."
+        },
+        {
+            "title": "Service and Repair Management",
+            "description": "Service and Repair Management Streamlines service scheduling, parts ordering, and maintenance history tracking.",
+            "image": "../../public/images/prod-img2.webp"
+        }
+    ],
+    "features2": [
+        {
+            "title": "Sales and Customer Relationship Management (CRM)",
+            "description": "Facilitates lead tracking, customer profiling, and sales pipeline management."
+        },
+        {
+            "title": "Reporting and Analytics",
+            "description": "Provides insightful reports and analytics on various dealership operations for data-driven decision-making."
+        },
+        {
+            "title": "Finance and Accounting Integration",
+            "description": "Integrates with financial systems to automate invoicing, payroll, and financial reporting. Linking with financial system like Tally."
+        }
+    ]
+}

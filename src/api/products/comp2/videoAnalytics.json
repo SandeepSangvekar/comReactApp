@@ -1,0 +1,37 @@
+{
+    "sectionTitle": {
+      "mainText": "Video",
+      "highlight": "Highlights",
+      "subText": "Analytics Solution"
+    },
+    "features1": [
+      {
+        "title": "Smart Object Detection",
+        "description": "VAS employs advanced algorithms to intelligently identify and track objects of interest in your video footage, enhancing security and situational awareness."
+      },
+      {
+        "title": "Data-driven Decision Making",
+        "description": "Harness the power of video data analytics to make informed decisions, improve operational efficiency, and respond proactively to events.",
+        "image": "../../public/images/prod-img2.webp"
+      }
+    ],
+    "features2": [
+        {
+          "title": "Dashboards & Alerts",
+          "description": "Tailor VAS with customizable dashboards, providing real-time insights & notifications for critical events."
+        },
+        {
+          "title": "Scalability",
+          "description": "Whether you have a small-scale setup or a large-scale enterprise, VAS can scale to meet your needs, making it suitable for businesses of all sizes."
+        },
+        {
+          "title": "User-friendly Interface",
+          "description": "The intuitive user interface of VAS makes it easy for staff at all levels to use and extract valuable insights from your video surveillance system."
+        },
+        {
+          "title": "Integration Capabilities",
+          "description": "Seamlessly integrate VAS solutions seamlessly into your existing surveillance infrastructure, enabling a unified and comprehensive approach to video management."
+        }
+      ]
+  }
+  

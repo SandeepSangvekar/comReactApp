@@ -1,0 +1,25 @@
+{
+    "productsSection": {
+      "backgroundImage": "../../public/images/corner-shelf.png",
+      "content": {
+        "heading": "Integrated Toll Management System",
+        "description": "Managing Infrastructure and operations for Toll management remains a challenge, as long distance roads often passing through deep inner villages / un habitant areas. Inspecting and maintaining long toll roads is troublesome. Upkeeping and management of Toll infrastructure is a issue."
+      },
+      "features": [
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Manual Dependency"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Infrastructure Upkeep"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Guideline Compliance"
+        }
+      ],
+      "productImage": "../../public/images/itms-prod.webp"
+    }
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "productsSection": {
+      "backgroundImage": "../../public/images/corner-shelf.png",
+      "content": {
+        "heading": "Dealer Management System",
+        "description": "A DMS is a comprehensive software solution designed to streamline and automate various processes within a dealership, helping to enhance efficiency, productivity, and customer satisfaction. A DMS offers centralized inventory management, enabling real-time tracking of vehicles, including acquisition, sales, and stock levels. It also includes sales and customer relationship management (CRM) tools to facilitate lead tracking, customer profiling, and managing the sales pipeline effectively. These features ensure seamless coordination and improved efficiency across key dealership functions. The system integrates with financial tools like Tally to automate invoicing, payroll, and financial reporting. Additionally, it streamlines service scheduling, parts ordering, and maintenance tracking for repair management. With robust reporting and analytics, a DMS provides actionable insights into dealership operations, supporting data-driven decision-making."
+      },
+      "features": [
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Improved Efficiency"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Inventory Optimization"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Financial Accuracy"
+        }
+      ],
+      "productImage": "../../public/images/dms-prod.webp"
+    }
+  }
+  

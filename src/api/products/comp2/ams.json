@@ -1,0 +1,36 @@
+{
+    "sectionTitle": {
+        "mainText": "Asset",
+        "highlight": "Highlights",
+        "subText": "Management System"   
+    },
+    "features1": [
+        {
+            "title": "Enhanced Productivity and Customer Service",
+            "description": "Having the right equipment to fulfill orders or delivering timely services, proper asset management supports operational efficiency and customer satisfaction"
+        },
+        {
+            "title": "Financial Reporting and Planning",
+            "description": "Asset management facilitates accurate financial reporting by tracking asset value, depreciation, and return on investment.",
+            "image": "../../public/images/prod-img2.webp"
+        }
+    ],
+    "features2": [
+        {
+            "title": "Improved Decision-Making",
+            "description": "Asset management software offers real-time insights into asset performance, usage, and maintenance, enabling informed decisions on investments and upgrades to optimize operations."
+        },
+        {
+            "title": "Compliance and Risk Management",
+            "description": "Effective asset management ensures regulatory compliance, reduces risks, and prevents issues like asset failure, safety hazards, or data breaches."
+        },
+        {
+            "title": "Maintenance and Downtime Reduction",
+            "description": "Asset management enables scheduled maintenance, reducing downtime and maximizing productivity by keeping assets in optimal condition."
+        },
+        {
+            "title": "Cost Efficiency",
+            "description": "Effective asset management reduces expenses and optimizes resources by tracking assets accurately, avoiding overstocking or underutilization, and improving financial performance."
+        }
+    ]
+}

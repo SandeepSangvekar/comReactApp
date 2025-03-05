@@ -1,0 +1,25 @@
+{
+    "productsSection": {
+      "backgroundImage": "../../public/images/corner-shelf.png",
+      "content": {
+        "heading": "Recruitment Management System",
+        "description": "Welcome to Recruitment Management System, your one-stop solution for all your job search and recruitment needs. Whether you are a job seeker in search of the perfect career opportunity or an employer looking to find the best talent for your company, our platform provides a comprehensive and user-friendly experience. With our Recruitment Management System Tool, you gain access to advanced features and functionality that set us apart from other tools in the market. Join our Recruitment Management System today and experience the convenience, efficiency, and effectiveness of our platform. Let us help you navigate the world of recruitment and connect you with your ideal job or perfect candidate."
+      },
+      "features": [
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Resume Analysis against the Job Description"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Proctor Screening (Online Exam)"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "User (Profile) and Resume Comparison"
+        }
+      ],
+      "productImage": "../../public/images/rms-prod.webp"
+    }
+  }
+  

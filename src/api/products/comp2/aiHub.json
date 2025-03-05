@@ -1,0 +1,36 @@
+{
+    "sectionTitle": {
+        "mainText": "AI-Hub",
+        "highlight": "Highlights",
+        "subText": ""   
+    },
+    "features1": [
+        {
+            "title": "Unified AI/ML Infrastructure Platform",
+            "description": "Supports multiple frameworks and workloads for comprehensive AI/ML needs."
+        },
+        {
+            "title": "Customized User Authentication",
+            "description": "Role-based access ensures secure, tailored environments for different user categories.",
+            "image": "../../public/images/prod-img2.webp"
+        }
+    ],
+    "features2": [
+        {
+            "title": "Container Configuration and Orchestration",
+            "description": "Simplifies Docker/Workspace job submissions with efficient container management and scaling."
+        },
+        {
+            "title": "Robust Billing and Resource Allocation",
+            "description": "Transparent billing with real-time visibility into resource usage and allocation."
+        },
+        {
+            "title": "High Availability and Fault Tolerance",
+            "description": "Ensures continuous availability by storing containers on alternative nodes."
+        },
+        {
+            "title": "Pre-installed GPU Libraries",
+            "description": "Provides pre-configured GPU libraries for quick integration and optimized performance."
+        }
+    ]
+}

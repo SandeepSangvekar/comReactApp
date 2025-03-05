@@ -6,6 +6,8 @@
 
 .fullWrapper{
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 
@@ -22,7 +24,9 @@
 .grid-three-cols{
   grid-template-columns: repeat(3, 1fr);
 }
-
+.main-content {
+  margin-top: 88px; /* Adjust based on header height */
+}
 @media (max-width: 767.98px) {
   .custom-container{
     padding-left: 2rem !important;
@@ -160,7 +164,7 @@
 @media (max-width: 991.98px) {
   .navbar-nav{
     width: 100% !important;
-    background-color: #ffffff !important;
+    /* background-color: #ffffff !important; */
     border-radius: none !important;
   } 
 

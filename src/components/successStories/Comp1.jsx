@@ -5,8 +5,8 @@ export const Comp1 = () => {
                 <div className="custom-container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h2>Fostering Innovation: Stories of  Transformation</h2>
-                            <img src="../../public/images/successStories-banner.jpg" className="img-fluid suc-stories-img" alt="" />
+                            <h2>Fostering Innovation: Stories of Transformation</h2>
+                            <img src="../../public/images/successStories-banner.webp" className="img-fluid suc-stories-img" alt="" />
                         </div>
                     </div>
                 </div>

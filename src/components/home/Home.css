@@ -344,10 +344,15 @@
     background-size: 100%;
     background-repeat: no-repeat; */
     background-color: #ECECEC;
+    transition: background-color 0.5s ease-in-out;
     min-height: 652px;
     position: relative;
     padding-bottom: 4rem;
   }
+  /* .competencies-sec.scrolled {
+    background-color: black !important;
+    color: white;
+  } */
   .comp-card{
     border: none !important;
     border-radius: 10px !important;
@@ -405,10 +410,21 @@
   .paddingY{
     padding: 4rem 0;
   }
+  .comp-leftContent h2{
+    background: linear-gradient(90deg, #5F2DEE, #0EE2F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+  }
   .img-wrap{
-    background: url(../public/images/Ellipse-bg.png) no-repeat;
+    /* background: url(../public/images/Ellipse-bg.png) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
+  }
+  .img-shadow img{
+    filter: drop-shadow(0px 50px 80px rgba(0, 123, 255, 0.20));
+    /* filter: drop-shadow(0px 70px 120px rgba(0, 123, 255, 0.25)); */
   }
   
   .driving-ino-bg{
@@ -465,7 +481,7 @@
   }
   /* customer-voices */
 .custo-voices{
-    background: url(../public/images/customer-voices-bg.jpg);
+    background: url(../public/images/customer-voices-bg.webp);
     background-size: cover;
     background-position: center center;
     padding: 4rem 0;
@@ -716,10 +732,84 @@
     padding: 0.2rem 1.2rem;
     border-radius: 20px;
     cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
   }
   .project-button:hover {
     color: #fff;
     background-color: #424649;
     border-color: #373b3e;
+    transform: translateY(-2px);
 }
+/* comp5 css */
+/* Full wrapper */
+.fullWrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Prevents overflow issues */
+}
+.expertise-sec{
+  gap: 1rem;
+  display: grid;
+}
+.exp-img-left img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px; /* Optional: Adds smooth corners */
+  /* filter: drop-shadow(0px 30px 50px rgba(0, 0, 0, 0.15)); Enhances shadow */
+  filter: drop-shadow(0px 30px 50px rgba(0, 123, 255, 0.10)); /* Enhances shadow */
+  /* background: linear-gradient(135deg, #4a90e2b5, #007bff69); */
+}
+.exp-img-right img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0px 30px 50px rgba(0, 123, 255, 0.10)); /* Enhances shadow */
+  /* background: linear-gradient(135deg, #4a90e2b5, #007bff69); */
+}
+/* Gradient Ball Styles */
+/* Floating Ball Styles */
+.exp-content-right{
+  position: relative;
+}
+.animated-ball {
+  position: absolute;
+  opacity: 0.7;
+  z-index: -1;
+  /* animation: floatBall 6s infinite alternate ease-in-out; */
+  animation: moveBall 8s infinite;
+}
+
+/* First ball position */
+.ball1 {
+  width: 150px; /* Adjust size as needed */
+  bottom: 10%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+/* Second ball position */
+.ball2 {
+  width: 110px; /* Adjust size as needed */
+  bottom: 29%;
+  right: 32%;
+  animation-delay: 2s;
+}
+
+/* Floating animation */
+@keyframes floatBall {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+
+/* comp5 css */
   

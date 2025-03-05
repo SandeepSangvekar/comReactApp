@@ -1,0 +1,36 @@
+{
+    "sectionTitle": {
+        "mainText": "Yard",
+        "highlight": "Highlights",
+        "subText": "Management System"   
+    },
+    "features1": [
+        {
+            "title": "Streamlined Asset Tracking",
+            "description": "Enhance visibility with real-time tracking of assets using sensors, RFID, and GPS for efficient resource allocation."
+        },
+        {
+            "title": "Optimized Inventory Management",
+            "description": "Ensure accuracy and efficiency by integrating inventory data with WMS and TMS for better stock control.",
+            "image": "../../public/images/prod-img2.webp"
+        }
+    ],
+    "features2": [
+        {
+            "title": "Simplified Gate Management",
+            "description": "Automate vehicle check-ins and check-outs to reduce gate congestion and improve overall security."
+        },
+        {
+            "title": "Enhanced Dock Utilization",
+            "description": "Schedule and manage loading and unloading activities with real-time updates to reduce wait times."
+        },
+        {
+            "title": "Efficient Yard Operations",
+            "description": "Maximize yard space utilization and streamline asset placement to minimize congestion and improve throughput."
+        },
+        {
+            "title": "IoT-Driven Yard Insights",
+            "description": "Leverage IoT for real-time data, safety enhancements, and actionable insights to optimize yard management."
+        }
+    ]
+}

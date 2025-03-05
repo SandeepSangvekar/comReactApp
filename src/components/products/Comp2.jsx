@@ -1,4 +1,31 @@
-export const Comp2 = () =>{
+import videoAnalyticsData from '../../api/products/comp2/videoAnalytics.json';
+import aiHubData from '../../api/products/comp2/aiHub.json'; 
+import rmsData from '../../api/products/comp2/rms.json'; 
+import crmData from '../../api/products/comp2/crm.json'; 
+import dmsData from '../../api/products/comp2/dms.json'; 
+import amsData from '../../api/products/comp2/ams.json'; 
+import itmsData from '../../api/products/comp2/itms.json'; 
+import iotData from '../../api/products/comp2/iot.json'; 
+import ymsData from '../../api/products/comp2/yms.json'; 
+export const Comp2 = ({productId}) =>{
+  const productData = productId === "1" 
+    ? videoAnalyticsData 
+    : productId === "2" 
+    ? aiHubData 
+    : productId === "3" 
+    ? rmsData
+    : productId === "4"
+    ? crmData
+    : productId === "5"
+    ? dmsData
+    : productId === "6"
+    ? amsData
+    : productId === "7"
+    ? itmsData
+    : productId === "8"
+    ? iotData
+    : ymsData;
+    // : aiHubData;
     return (
         <>
           <div className="prod-2nd-sec">
@@ -10,9 +37,9 @@ export const Comp2 = () =>{
             </div>
             <div className="text-container">
               <span className="main-text">
-                Video<span className="highlight">Highlights</span>
+                {productData.sectionTitle?.mainText}<span className="highlight">{productData.sectionTitle?.highlight}</span>
               </span>
-              <span className="solution-text">Analytics Solution</span>
+              <span className="solution-text">{productData.sectionTitle?.subText}</span>
             </div>
             <div className="box-pattern3"></div>
             
@@ -21,20 +48,36 @@ export const Comp2 = () =>{
                 <div className="row">
                   <div className="col-md-6">
                     <ul className="prod-content-grp">
-                      <li>
+                      {/* <li>
                         <h6>Smart Object Detection</h6> 
                         <p>VAS employs advanced algorithms to intelligently identify and track objects of interest in your video footage, enhancing security and situational awareness.</p>
                       </li>
                       <li>
                         <h6>Data-driven Decision Making</h6> 
                         <p>Harness the power of video data analytics to make informed decisions, improve operational efficiency, and respond proactively to events.</p>
-                        <img src="../../public/images/prod-img2.png" className="img-fluid" alt="" />
-                      </li>
+                        <img src="../../public/images/prod-img2.webp" className="img-fluid" alt="" />
+                      </li> */}
+                      {/* {productData.features1?.map((feature, index) => {
+                        return (
+                          <li key={index}>
+                            <h6>{feature.title}</h6>
+                            <p>{feature.description}</p>
+                            {feature.image && <img src={feature.image} className="img-fluid" alt="" />}
+                          </li>
+                        )
+                      })} */}
+                      {productData.features1?.map((feature, index) => (
+                        <li key={index}>
+                          <h6>{feature.title}</h6>
+                          <p>{feature.description}</p>
+                          {feature.image && <img src={feature.image} className="img-fluid" alt="" />}
+                        </li>
+                      ))}
                     </ul>
                   </div>
                   <div className="col-md-6">
                     <ul className="prod-content-grp">
-                      <li>
+                      {/* <li>
                         <h6>Dashboards & Alerts</h6>
                         <p>Tailor VAS with customizable dashboards, providing real-time insights & notifications for critical events.</p>
                       </li>
@@ -49,7 +92,14 @@ export const Comp2 = () =>{
                       <li>
                         <h6>Integration Capabilities</h6>
                         <p>Seamlessly integrate VAS solutions seamlessly into your existing surveillance infrastructure, enabling a unified and comprehensive approach to video management.</p>
-                      </li>
+                      </li> */}
+
+                        {productData.features2?.map((feature, index) => (
+                          <li key={index}>
+                            <h6>{feature.title}</h6>
+                            <p>{feature.description}</p>
+                          </li>
+                        ))}
                     </ul>
                   </div>
                 </div>
