@@ -61,7 +61,7 @@
     gap: 20px;
   }
   .map-border-img{
-    background: url(../public/images/map-border.png) no-repeat;
+    background: url(/images/map-border.png) no-repeat;
     height: 20px;
     background-size: cover;
     background-position: center center;

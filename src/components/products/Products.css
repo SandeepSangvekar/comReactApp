@@ -9,7 +9,7 @@
     /* height: 1000px; */
 }
 .corner-shelf{
-  /* background: url(../public/images/corner-shelf.png) no-repeat; */
+  /* background: url(/images/corner-shelf.png) no-repeat; */
   height: 65px;
   /* background-size: contain; */
   /* background-position: center center; */

@@ -55,7 +55,7 @@ export const Comp2 = ({productId}) =>{
                       <li>
                         <h6>Data-driven Decision Making</h6> 
                         <p>Harness the power of video data analytics to make informed decisions, improve operational efficiency, and respond proactively to events.</p>
-                        <img src="../../public/images/prod-img2.webp" className="img-fluid" alt="" />
+                        <img src="/images/prod-img2.webp" className="img-fluid" alt="" />
                       </li> */}
                       {/* {productData.features1?.map((feature, index) => {
                         return (

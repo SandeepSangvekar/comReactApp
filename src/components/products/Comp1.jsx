@@ -34,7 +34,7 @@ export const Comp1 = ({productId}) => {
       <div className="products-section">
         <div className="pro-bg">
           <div className="corner-shelf">
-            <img src="../../public/images/corner-shelf.png" className="img-fluid" alt="" />
+            <img src="/images/corner-shelf.png" className="img-fluid" alt="" />
           </div>
           <div className="custom-container prod-pad-right">
             <div className="row">
@@ -61,7 +61,7 @@ export const Comp1 = ({productId}) => {
                     
                     {/* <tr>
                       <td className="list-icon">
-                        <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                        <img src="/images/tick-icon.png" className="img-fluid" />
                       </td>
                       <td className="list-txt">
                         Safety Gear Detection
@@ -69,7 +69,7 @@ export const Comp1 = ({productId}) => {
                     </tr>
                     <tr>
                       <td className="list-icon">
-                        <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                        <img src="/images/tick-icon.png" className="img-fluid" />
                       </td>
                       <td className="list-txt">
                         Facial Recognition

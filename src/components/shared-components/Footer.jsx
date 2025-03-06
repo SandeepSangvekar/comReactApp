@@ -10,7 +10,7 @@
                         <div className="row">
                             <div className="col-md-8 col-sm-6">
                                 <div className="footer-logo">
-                                    <img src="../../public/images/white-logo.png" className="img-fluid" alt="" />
+                                    <img src="/images/white-logo.png" className="img-fluid" alt="" />
                                 </div>
                                 <p>We specialize in crafting data-driven solutions tailored to meet the distinct challenges encountered by organizations across a diverse range of industry verticals.</p>
                                 <ul className="social-main">

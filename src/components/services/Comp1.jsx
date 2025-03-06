@@ -13,7 +13,7 @@ export const Comp1 = ({ serviceId }) => {
       <div className="services-section">
         <div className="ser-bg">
           <div className="corner-shelf">
-            <img src="../../public/images/corner-shelf.png" className="img-fluid" alt="" />
+            <img src="/images/corner-shelf.png" className="img-fluid" alt="" />
           </div>
           <h2 className="ser-heading">{serviceData.banner.heading}</h2>
           <div className="custom-container">
@@ -62,13 +62,13 @@ export const Comp1 = ({ serviceId }) => {
                 <div className="row">
                   <div className="col-md-5 col-sm-6 col-6">
                     <div className="mob-icon-grp">
-                      <img src="../../public/images/apple-icon.png" className="img-fluid" alt="" />
-                      <img src="../../public/images/tringle-icon.png" className="img-fluid" alt="" />
+                      <img src="/images/apple-icon.png" className="img-fluid" alt="" />
+                      <img src="/images/tringle-icon.png" className="img-fluid" alt="" />
                     </div>
                   </div>
                   <div className="col-md-7 col-sm-6 col-6">
                     <div className="msg-img">
-                      <img src="../../public/images/msg-icon.png" className="img-fluid" alt="" />
+                      <img src="/images/msg-icon.png" className="img-fluid" alt="" />
                     </div>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ export const Comp1 = ({ serviceId }) => {
               </div>
               <div className="col-lg-4 col-md-4 col-sm-6 mid-img-position">
                 <div className="mob-with-hand">
-                  <img src="../../public/images/iPhoneWoodenHand2.png" className="img-fluid" alt="" />
+                  <img src="/images/iPhoneWoodenHand2.png" className="img-fluid" alt="" />
                 </div>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-6">
@@ -85,7 +85,7 @@ export const Comp1 = ({ serviceId }) => {
                   <h3>with APP</h3>
                 </div>
                 <div className="mob-view-only">
-                  <img src="../../public/images/iPhoneWoodenHand2.png" className="img-fluid" alt="" />
+                  <img src="/images/iPhoneWoodenHand2.png" className="img-fluid" alt="" />
                 </div>
               </div>
             </div>

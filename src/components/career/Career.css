@@ -11,7 +11,7 @@
   margin-bottom: 0;
 }
 .career-content2{
-  background: url(../public/images/career-bg.webp);
+  background: url(/images/career-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 420px;

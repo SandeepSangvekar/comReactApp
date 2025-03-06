@@ -18,7 +18,7 @@ export const Comp3 = ({productId}) =>{
                 {/* <div className="custom-container pad-left0">
                 <div className="row gy-4">
                     <div className="col-md-6 prod-img-align">
-                    <img src="../../public/images/prod-img5.webp" className="img-fluid" alt="" />
+                    <img src="/images/prod-img5.webp" className="img-fluid" alt="" />
                     </div>
                     <div className="col-md-6">
                     <div className="prod-content">
@@ -52,7 +52,7 @@ export const Comp3 = ({productId}) =>{
             ) : (
               <>
               <div className="col-md-6 prod-img-align mid-odd-img-mob">
-                    <img src="../../public/images/prod-img4.webp" className="img-fluid" alt="" />
+                    <img src="/images/prod-img4.webp" className="img-fluid" alt="" />
                     </div>
                 <div className="col-md-6">
                   <div className="prod-content">

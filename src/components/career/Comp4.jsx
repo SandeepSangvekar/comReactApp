@@ -30,7 +30,7 @@ export const Comp4 = () => {
                         </div>
                         <div className="col-md-4">
                             <div className="right-car-img">
-                                <img src="../../public/images/career-coworking-spaces.png" className="img-fluid" alt="" />
+                                <img src="/images/career-coworking-spaces.png" className="img-fluid" alt="" />
                             </div>
                         </div>
                     </div>

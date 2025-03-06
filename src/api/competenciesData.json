@@ -2,37 +2,37 @@
     {
       "id": 1,
       "name": "GPU Orchestration",
-      "img_url": "images/gear-icon.png",
+      "img_url": "/images/gear-icon.png",
       "description": "Delivering optimized GPU orchestration solutions to enhance performance and scalability for AI-driven workloads."
     },
     {
       "id": 2,
       "name": "Computer Vision",
-      "img_url": "images/eye-icon.png",
+      "img_url": "/images/eye-icon.png",
       "description": "Providing advanced computer vision solutions to extract actionable insights from visual data for smarter decision-making."
     },
     {
       "id": 3,
       "name": "Data Science",
-      "img_url": "images/data-scientist-icon.png",
+      "img_url": "/images/data-scientist-icon.png",
       "description": "Offering data science solutions that turn complex data into meaningful insights, driving informed business decisions."
     },
     {
       "id": 4,
       "name": "Intelligent Agent",
-      "img_url": "images/inte-agent-icon.png",
+      "img_url": "/images/inte-agent-icon.png",
       "description": "Creating intelligent agent solutions that automate processes, adapt to changes, and drive business innovation."
     },
     {
       "id": 5,
       "name": "Gen AI",
-      "img_url": "images/genAI-icon.png",
+      "img_url": "/images/genAI-icon.png",
       "description": "Empowering businesses with generative AI solutions that create innovative content and streamline operations."
     },
     {
       "id": 6,
       "name": "IoT",
-      "img_url": "images/iot-icon.png",
+      "img_url": "/images/iot-icon.png",
       "description": "Delivering IoT solutions that seamlessly connect devices, providing real-time data and driving operational efficiency."
     }
 ]

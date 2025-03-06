@@ -33,14 +33,14 @@ export const Comp1 = () => {
                       <div className="col-md-6 contact-wrap-right">
                         <div className="">
                           <div className="contact-img">
-                            <img src="../../public/images/contact-img.png" className="img-fluid" alt="contact image" />
+                            <img src="/images/contact-img.png" className="img-fluid" alt="contact image" />
                           </div>
                           <div className="contact-detail">
                             <table className="detailList">
                               <tbody>
                                 <tr>
                                   <td className="contact-icon">
-                                    <img src="../../public/images/mail-icon.png" className="img-fluid"/>
+                                    <img src="/images/mail-icon.png" className="img-fluid"/>
                                   </td>
                                   <td className="contact-txt">
                                     <h6>Email ID</h6>
@@ -50,7 +50,7 @@ export const Comp1 = () => {
                                 </tr>
                                 <tr>
                                   <td className="contact-icon">
-                                    <img src="../../public/images/phone-icon.png" className="img-fluid"/>
+                                    <img src="/images/phone-icon.png" className="img-fluid"/>
                                   </td>
                                   <td className="contact-txt">
                                     <h6>Phone</h6>
@@ -59,7 +59,7 @@ export const Comp1 = () => {
                                 </tr>
                                 <tr>
                                   <td className="contact-icon">
-                                    <img src="../../public/images/location-icon.png" className="img-fluid"/>
+                                    <img src="/images/location-icon.png" className="img-fluid"/>
                                   </td>
                                   <td className="contact-txt">
                                     <h6>Location</h6>
@@ -68,7 +68,7 @@ export const Comp1 = () => {
                                 </tr>
                                 <tr>
                                   <td className="contact-icon">
-                                    <img src="../../public/images/time-icon.png" className="img-fluid"/>
+                                    <img src="/images/time-icon.png" className="img-fluid"/>
                                   </td>
                                   <td className="contact-txt">
                                     <h6>Time</h6>
@@ -114,14 +114,14 @@ export const Comp1 = () => {
                     </div>
                     <div className="contact-item item2">
                           <div className="contact-img">
-                            <img src="../../public/images/contact-img.png" className="img-fluid" alt="contact image" />
+                            <img src="/images/contact-img.png" className="img-fluid" alt="contact image" />
                           </div>
                           <div className="contact-detail">
                             <table className="detailList">
                               <tbody>
                                 <tr>
                                   <td className="contact-icon">
-                                    <img src="../../public/images/mail-icon.png" className="img-fluid"/>
+                                    <img src="/images/mail-icon.png" className="img-fluid"/>
                                   </td>
                                   <td className="contact-txt">
                                     <h6>Email ID</h6>
@@ -131,7 +131,7 @@ export const Comp1 = () => {
                                 </tr>
                                 <tr>
                                   <td className="contact-icon">
-                                    <img src="../../public/images/phone-icon.png" className="img-fluid"/>
+                                    <img src="/images/phone-icon.png" className="img-fluid"/>
                                   </td>
                                   <td className="contact-txt">
                                     <h6>Phone</h6>
@@ -140,7 +140,7 @@ export const Comp1 = () => {
                                 </tr>
                                 <tr>
                                   <td className="contact-icon">
-                                    <img src="../../public/images/location-icon.png" className="img-fluid"/>
+                                    <img src="/images/location-icon.png" className="img-fluid"/>
                                   </td>
                                   <td className="contact-txt">
                                     <h6>Location</h6>
@@ -149,7 +149,7 @@ export const Comp1 = () => {
                                 </tr>
                                 <tr>
                                   <td className="contact-icon">
-                                    <img src="../../public/images/time-icon.png" className="img-fluid"/>
+                                    <img src="/images/time-icon.png" className="img-fluid"/>
                                   </td>
                                   <td className="contact-txt">
                                     <h6>Time</h6>
@@ -188,7 +188,7 @@ export const Comp1 = () => {
                             <div className="right-column">
                                 <div className="row2 contact-img">
                                     <div className="">
-                                        <img src="../../public/images/contact-img.png" className="img-fluid" alt="contact image" />
+                                        <img src="/images/contact-img.png" className="img-fluid" alt="contact image" />
                                     </div>
                                 </div>
                                 <div className="row2 contact-detail">
@@ -197,7 +197,7 @@ export const Comp1 = () => {
                                             <tbody>
                                                 <tr>
                                                     <td className="contact-icon">
-                                                        <img src="../../public/images/mail-icon.png" className="img-fluid" />
+                                                        <img src="/images/mail-icon.png" className="img-fluid" />
                                                     </td>
                                                     <td className="contact-txt">
                                                         <h6>Email ID</h6>
@@ -207,7 +207,7 @@ export const Comp1 = () => {
                                                 </tr>
                                                 <tr>
                                                     <td className="contact-icon">
-                                                        <img src="../../public/images/phone-icon.png" className="img-fluid" />
+                                                        <img src="/images/phone-icon.png" className="img-fluid" />
                                                     </td>
                                                     <td className="contact-txt">
                                                         <h6>Phone</h6>
@@ -216,7 +216,7 @@ export const Comp1 = () => {
                                                 </tr>
                                                 <tr>
                                                     <td className="contact-icon">
-                                                        <img src="../../public/images/location-icon.png" className="img-fluid" />
+                                                        <img src="/images/location-icon.png" className="img-fluid" />
                                                     </td>
                                                     <td className="contact-txt">
                                                         <h6>Location</h6>
@@ -225,7 +225,7 @@ export const Comp1 = () => {
                                                 </tr>
                                                 <tr>
                                                     <td className="contact-icon">
-                                                        <img src="../../public/images/time-icon.png" className="img-fluid" />
+                                                        <img src="/images/time-icon.png" className="img-fluid" />
                                                     </td>
                                                     <td className="contact-txt">
                                                         <h6>Time</h6>
