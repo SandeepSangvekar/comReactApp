@@ -12,7 +12,7 @@
         {
             "title": "Optimized Inventory Management",
             "description": "Ensure accuracy and efficiency by integrating inventory data with WMS and TMS for better stock control.",
-            "image": "../../public/images/prod-img2.webp"
+            "image": "/images/prod-img2.webp"
         }
     ],
     "features2": [

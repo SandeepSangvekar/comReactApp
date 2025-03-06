@@ -18,14 +18,14 @@ export const CardComp = () => {
                             <p>We delivered the Workspace Operator, a specialized application with pre-configured environments (YOLO, ESRT, BCSCN Super Resolution). This innovative solution leverages Multi-Instance GPU (MIG) for optimized resource allocation and seamless multi-user support. The user-friendly interface allows effortless switching between environments, enhancing productivity. To ensure data security, a robust Tunnel application was integrated, providing VPN access and safeguarding server integrity. This design meets the customer's needs with efficiency, flexibility, and security.</p>
                         </div>
                         <div className="col-md-6">
-                            <img src="../../public/images/suc-img1.png" className="img-fluid" alt="" />
+                            <img src="/images/suc-img1.png" className="img-fluid" alt="" />
                         </div>
                     </div>
                 </div>
                 <div className="suc-container suc-space">
                     <div className="row">
                         <div className="col-md-6">
-                            <img src="../../public/images/suc-img2.webp" className="img-fluid" alt="" />
+                            <img src="/images/suc-img2.webp" className="img-fluid" alt="" />
                         </div>
                         <div className="col-md-6">
                             <h3 className="mb-3">Quality Assurance through CCTV</h3>
@@ -48,14 +48,14 @@ export const CardComp = () => {
                             <p>We implemented Sixth Chakra, our proprietary solution, seamlessly integrating it with their concrete machinery. This system delivers real-time insights into equipment health, performance, and productivity. It also features smart fleet management, advanced data analytics, and efficient after-sales service workflows.</p>
                         </div>
                         <div className="col-md-6">
-                            <img src="../../public/images/suc-img3.webp" className="img-fluid" alt="" />
+                            <img src="/images/suc-img3.webp" className="img-fluid" alt="" />
                         </div>
                     </div>
                 </div>
                 <div className="suc-container suc-space">
                     <div className="row">
                         <div className="col-md-6">
-                            <img src="../../public/images/suc-img4.webp" className="img-fluid" alt="" />
+                            <img src="/images/suc-img4.webp" className="img-fluid" alt="" />
                         </div>
                         <div className="col-md-6">
                             <h3 className="mb-3">Perimeter Intrusion Detection</h3>
