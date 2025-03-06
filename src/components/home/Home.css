@@ -332,7 +332,7 @@
     color: #ffffff;
   }
   .waveBottom{
-    background-image: url(../public/images/waves.png);
+    background-image: url(/images/waves.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 150px;
@@ -418,7 +418,7 @@
     font-weight: bold;
   }
   .img-wrap{
-    /* background: url(../public/images/Ellipse-bg.png) no-repeat;
+    /* background: url(/images/Ellipse-bg.png) no-repeat;
     background-size: cover;
     background-position: center center; */
   }
@@ -428,7 +428,7 @@
   }
   
   .driving-ino-bg{
-    background: url(../public/images/driving-innovation.png) no-repeat;
+    background: url(/images/driving-innovation.png) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -481,7 +481,7 @@
   }
   /* customer-voices */
 .custo-voices{
-    background: url(../public/images/customer-voices-bg.webp);
+    background: url(/images/customer-voices-bg.webp);
     background-size: cover;
     background-position: center center;
     padding: 4rem 0;
@@ -498,7 +498,7 @@
     margin-bottom: 5rem;
   }
   .custo-voices-card{
-    background: url(../public/images/card-bg.png);
+    background: url(/images/card-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

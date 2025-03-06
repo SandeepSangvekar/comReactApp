@@ -1,5 +1,5 @@
 .footer{
-    background: url(../public/images/footer.webp) no-repeat;
+    background: url(/images/footer.webp) no-repeat;
     background-size: cover;
     background-position: center center;
     background-color: #0d0523;
