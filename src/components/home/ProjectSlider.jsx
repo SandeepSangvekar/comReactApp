@@ -163,7 +163,7 @@ const ProjectSlider = () => {
               <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
             </div>
             <div className="project-img">
-              <img src="../../public/images/iPhone15Pro.png" className='img-fluid' alt="" />
+              <img src="/images/iPhone15Pro.png" className='img-fluid' alt="" />
             </div>
             {/* </div> */}
 
@@ -178,7 +178,7 @@ const ProjectSlider = () => {
               <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
             </div>
             <div className="project-img">
-              <img src="../../public/images/iPhone15Pro.png" className='img-fluid' alt="" />
+              <img src="/images/iPhone15Pro.png" className='img-fluid' alt="" />
             </div>
           </div>
 
@@ -215,7 +215,7 @@ const ProjectSlider = () => {
                 </div>
                 <div className="col-md-6">
                   <img
-                    src="../../public/images/iPhone15Pro.png"
+                    src="/images/iPhone15Pro.png"
                     className="img-fluid rounded-start"
                     alt="..."
                   />
@@ -241,7 +241,7 @@ const ProjectSlider = () => {
                 </div>
                 <div className="col-md-6">
                   <img
-                    src="../../public/images/iPhone15Pro.png"
+                    src="/images/iPhone15Pro.png"
                     className="img-fluid rounded-start"
                     alt="..."
                   />
