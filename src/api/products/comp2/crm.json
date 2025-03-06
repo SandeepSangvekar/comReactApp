@@ -12,7 +12,7 @@
         {
             "title": "Marketing Automation",
             "description": "The CRM automates marketing campaigns, segments customers, and tracks performance to enhance engagement and ROI.",
-            "image": "../../public/images/prod-img2.webp"
+            "image": "/images/prod-img2.webp"
         }
     ],
     "features2": [
