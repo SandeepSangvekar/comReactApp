@@ -15,6 +15,7 @@ export const Comp5 = () => {
                     {/* <div className="row">
 
                 </div> */}
+
                     <div className="grid grid-two-cols">
                         <div className="exp-img-left">
                             <img src="../../public/images/mobile-img.png" className="img-fluid" alt="smart meter app" />
@@ -24,8 +25,11 @@ export const Comp5 = () => {
                             <p>We specialize in building robust and scalable E-Commerce platforms tailored to your business needs. Our solutions provide seamless user experiences with features like easy ordering, secure payments, efficient logistics management, and customer engagement tools. Whether it's a web or app-based platform, we deliver end-to-end solutions designed to enhance operational efficiency and drive customer satisfaction. Trust us to create a powerful online presence for your business, no matter the industry.</p>
                             {/* <button className="btn btn-dark">Learn More</button> */}
                             <button className="custom-button">
-                            Learn more <span className="arrow2"><i class="fa-solid fa-arrow-right"></i></span>
+                            Learn more <span className="arrow2"><i className="fa-solid fa-arrow-right"></i></span>
                             </button>
+                            {/* Animated Ball Images */}
+                            <img src="../../public/images/blueBall1.png" className="animated-ball ball1" alt="Floating Ball" />
+                            <img src="../../public/images/blueBall2.png" className="animated-ball ball2" alt="Floating Ball" />
                         </div>
                     </div>
                     <div className="grid grid-two-cols">
@@ -33,7 +37,7 @@ export const Comp5 = () => {
                             <h2>Smart Metering Solution</h2>
                             <p>We specialize in building robust and scalable E-Commerce platforms tailored to your business needs. Our solutions provide seamless user experiences with features like easy ordering, secure payments, efficient logistics management, and customer engagement tools. Whether it's a web or app-based platform, we deliver end-to-end solutions designed to enhance operational efficiency and drive customer satisfaction. Trust us to create a powerful online presence for your business, no matter the industry.</p>
                             <button className="custom-button">
-                            Learn more <span className="arrow2"><i class="fa-solid fa-arrow-right"></i></span>
+                            Learn more <span className="arrow2"><i className="fa-solid fa-arrow-right"></i></span>
                             </button>
                         </div>
                         <div className="exp-img-right">

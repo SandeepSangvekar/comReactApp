@@ -11,7 +11,7 @@
   margin-bottom: 0;
 }
 .career-content2{
-  background: url(../public/images/career-bg.png);
+  background: url(../public/images/career-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 420px;
@@ -34,6 +34,26 @@
   text-align: left;
   text-align: justify;
   right: 10%;
+}
+
+/* .career-icon img {
+  transition: transform 0.3s ease-in-out;
+} */
+
+.career-icon img {
+    filter: drop-shadow(0px 5px 10px rgba(0, 123, 255, 0.3));
+}
+
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+  
+}
+
+.career-icon img:hover {
+  animation: pulse 0.4s ease-in-out;
 }
 .career-text p{
   margin-bottom: 0;
@@ -64,5 +84,9 @@
 }
 .right-car-img img{
   height: 450px;
+}
+.career-title::first-letter{
+  color: #407BFF;
+  font-size: 36px;
 }
 /* career css */

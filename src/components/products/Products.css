@@ -37,6 +37,8 @@
     text-align: justify;
     line-height: 30px;
     font-weight: lighter;
+    /* white-space: normal; */
+    /* word-spacing: normal; */
 
 }
 .detailList2{
@@ -106,7 +108,7 @@
 
   .highlight {
     position: absolute;
-    left: 50%;
+    left: 70%;
     top: 50%;
     transform: translate(-50%, -50%);
     background: linear-gradient(90deg, #5F2DEE, #0EE2F6);

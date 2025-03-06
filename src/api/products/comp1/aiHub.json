@@ -1,0 +1,25 @@
+{
+    "productsSection": {
+      "backgroundImage": "../../public/images/corner-shelf.png",
+      "content": {
+        "heading": "AI-Hub",
+        "description": "AI-Hub is a robust platform designed for container orchestration in GPU enabled environments. It seamlessly handles multi-node operations and accommodates various AI/ML frameworks, ensuring optimal performance and adaptability. AIHub accommodates multiple frameworks and types of workloads, providing a versatile and comprehensive solution for AI/ML Infrastructure needs Implements a customized login page template featuring role categorization for admin, ML ops user, ICME user, each with specific access permissions. Additionally, ensures data integrity by providing role- based access and views tailored for managed customer environments."
+      },
+      "features": [
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Container Configuration and Orchestration"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Ease of Use"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Robust Billing and Resource Allocation"
+        }
+      ],
+      "productImage": "../../public/images/ai-hub.webp"
+    }
+  }
+  

@@ -1,0 +1,36 @@
+{
+    "sectionTitle": {
+        "mainText": "Recruitment",
+        "highlight": "Highlights",
+        "subText": "Management System"   
+    },
+    "features1": [
+        {
+            "title": "Profile-Job FitAnalysis",
+            "description": "Our Recruitment Management System Tool analyzes profiles using Artificial Intelligence & Machine Learning to match skills with job descriptions."
+        },
+        {
+            "title": "Resume Analysis against the Job Description",
+            "description": "We analyze resumes, extracting key details to match candidates with job descriptions effectively.",
+            "image": "../../public/images/prod-img2.webp"
+        }
+    ],
+    "features2": [
+        {
+            "title": "User (Profile) and Resume Comparison",
+            "description": "Our tool compares profiles and resumes, ensuring accurate, consistent, and comprehensive candidate evaluation."
+        },
+        {
+            "title": "Bulk Candidate Communication",
+            "description": "It streamlines the hiring process by sending personalized updates on application status and interviews."
+        },
+        {
+            "title": "Proctor Screening (Online Exam)",
+            "description": "Our tool provides secure online proctor exams with real-time monitoring and custom parameters."
+        },
+        {
+            "title": "Mobile-Friendly Interface",
+            "description": "Recruitment Management System is mobile-friendly, accessible on desktop and mobile devices across all platforms."
+        }
+    ]
+}

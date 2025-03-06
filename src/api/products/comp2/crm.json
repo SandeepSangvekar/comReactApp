@@ -1,0 +1,32 @@
+{
+    "sectionTitle": {
+        "mainText": "CRM",
+        "highlight": "Highlights",
+        "subText": ""   
+    },
+    "features1": [
+        {
+            "title": "Customer Data Management",
+            "description": "Microsoft Dynamics CRM centralizes customer data, enabling personalized experiences and data-driven decisions across touchpoints."
+        },
+        {
+            "title": "Marketing Automation",
+            "description": "The CRM automates marketing campaigns, segments customers, and tracks performance to enhance engagement and ROI.",
+            "image": "../../public/images/prod-img2.webp"
+        }
+    ],
+    "features2": [
+        {
+            "title": "Insights and Analytics",
+            "description": "The CRM provides analytics, insights, and reporting tools to optimize marketing, sales, and service."
+        },
+        {
+            "title": "Customer Service and Support",
+            "description": "The CRM enhances customer service with case management, knowledge base, and omnichannel support."
+        },
+        {
+            "title": "Integration and Scalability",
+            "description": "Microsoft Dynamics CRM streamlines sales with opportunity management, lead tracking, and pipeline visualization."
+        }
+    ]
+}

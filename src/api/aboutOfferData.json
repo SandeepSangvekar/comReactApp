@@ -1,0 +1,27 @@
+[
+    {
+      "icon": "/images/GPU-Orchestration.svg",
+      "title": "GPU Orchestration",
+      "description": "Delivering optimized GPU solutions to enhance performance and scalability for AI-driven workloads."
+    },
+    {
+      "icon": "/images/Computer-Vision.svg",
+      "title": "Computer Vision",
+      "description": "Providing advanced computer vision solutions to extract actionable insights from visual data for smarter decision-making."
+    },
+    {
+      "icon": "/images/Data-Science.svg",
+      "title": "Data Science",
+      "description": "Offering data science solutions that turn complex data into meaningful insights, driving informed business decisions."
+    },
+    {
+      "icon": "/images/Intelligent-Agent.svg",
+      "title": "Intelligent Agent",
+      "description": "Creating intelligent agent solutions that automate processes, adapt to changes, and drive business innovation."
+    },
+    {
+      "icon": "/images/Gen-AI.svg",
+      "title": "Gen AI",
+      "description": "Empowering businesses with generative AI solutions that create innovative content and streamline operations."
+    }
+  ]

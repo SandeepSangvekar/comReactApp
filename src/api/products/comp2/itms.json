@@ -1,0 +1,36 @@
+{
+    "sectionTitle": {
+        "mainText": "Integrated",
+        "highlight": "Highlights",
+        "subText": "Toll Management System"   
+    },
+    "features1": [
+        {
+            "title": "Efficient Accident Management",
+            "description": "Managing accident cases promptly with system-driven solutions to ensure timely response and resolution."
+        },
+        {
+            "title": "Infrastructure Upkeep",
+            "description": "Regularly inspecting, maintaining, and tracking toll infrastructure to preserve asset value and longevity.",
+            "image": "../../public/images/prod-img2.webp"
+        }
+    ],
+    "features2": [
+        {
+            "title": "Traffic Lane Optimization",
+            "description": "Ensuring smooth traffic flow by monitoring and managing toll lanes with minimal manual intervention."
+        },
+        {
+            "title": "Digital Incident Tracking",
+            "description": "Tracking incidents and encroachments digitally to maintain records and improve operational transparency."
+        },
+        {
+            "title": "Transparent Reporting to NHAI",
+            "description": "Providing NHAI with clear, real-time updates on maintenance, inspections, and operational activities."
+        },
+        {
+            "title": "Employee Management System",
+            "description": "Streamlining employee roles and activities for better coordination and improved operational efficiency."
+        }
+    ]
+}

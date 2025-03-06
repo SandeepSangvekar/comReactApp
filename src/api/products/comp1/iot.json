@@ -1,0 +1,25 @@
+{
+    "productsSection": {
+      "backgroundImage": "../../public/images/corner-shelf.png",
+      "content": {
+        "heading": "Internet of Things (IoT)",
+        "description": "At Augmented Transformation, the Internet of Things (IoT) helps people live and work smarter, providing complete control over daily activities For businesses, IoT is crucial in driving automation and informed decision-making. Our design approach is unique, featuring a modular device structure with customizable modules like CAN, RFID, and WiFi available on demand. Devices are configured and assembled according to customer specifications, ensuring tailored solutions."
+      },
+      "features": [
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Data Security and Encryption"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "IoT Software & Telematic Devices"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Firmware and Software"
+        }
+      ],
+      "productImage": "../../public/images/iot-prod.webp"
+    }
+  }
+  

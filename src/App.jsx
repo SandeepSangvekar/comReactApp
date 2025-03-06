@@ -10,30 +10,33 @@ import { About } from "./components/about/About";
 import { Services } from "./components/services/Services";
 import { Products } from "./components/products/Products";
 import { Career } from "./components/career/Career";
-import { Contact } from "./components/contact/Contact"; 
+import { Contact } from "./components/contact/Contact";
 import { SuccessStories } from "./components/successStories/SuccessStories";
+import { useParams } from "react-router-dom";
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Header/>
-        <Routes>
-          {/* Single Page Routes */}
-          <Route path="/" element={<Home />}/>
-          <Route path="/about" element={<About />}/>
-          <Route path="/career" element={<Career />}/>
-          <Route path="/success-stories" element={<SuccessStories />}/>
+        <Header />
+        <main className="main-content">
+          <Routes>
+            {/* Single Page Routes */}
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/career" element={<Career />} />
+            <Route path="/success-stories" element={<SuccessStories />} />
 
-          {/* Nested Routes for Dropdown Components */}
-          <Route>
-            {/* <Route index element={<h2>Please select a service</h2>} />*/}
-            <Route path="/services/1" element={<Services/>}/>
-          </Route>
-          <Route>
-            <Route path="/products/1" element={<Products/>}/>
-          </Route>
-          <Route path="/contact" element={<Contact />}/>
-        </Routes>
+            {/* Nested Routes for Dropdown Components */}
+            <Route>
+              {/* <Route index element={<h2>Please select a service</h2>} />*/}
+              <Route path="/services/:serviceId" element={<Services />} />
+            </Route>
+            <Route>
+              <Route path="/products/:productId" element={<Products />} />
+            </Route>
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
         <Footer />
       </BrowserRouter>
     </>

@@ -1,0 +1,36 @@
+{
+    "sectionTitle": {
+        "mainText": "Internet",
+        "highlight": "Highlights",
+        "subText": "of Things (IoT)"   
+    },
+    "features1": [
+        {
+            "title": "Complete IoT Solutions",
+            "description": "We specialize in delivering complete IoT solutions, offering end-to-end services tailored to customer needs."
+        },
+        {
+            "title": "Modular Device Design",
+            "description": "Our modular approach allows customization with modules like CAN, RFID, and WiFi, reducing development costs.",
+            "image": "../../public/images/prod-img2.webp"
+        }
+    ],
+    "features2": [
+        {
+            "title": "Automotive IoT Expertise",
+            "description": "We provide advanced IoT solutions for fleet management, connected vehicles, and predictive maintenance in the automotive sector."
+        },
+        {
+            "title": "Industrial IoT Solutions",
+            "description": "Our IoT solutions leverage AI, big data, and machine learning to optimize industrial operations and reduce costs."
+        },
+        {
+            "title": "Comprehensive In-House Capabilities",
+            "description": "With in-house competency in hardware, firmware, cloud applications, and data analytics, we deliver exceptional IoT solutions."
+        },
+        {
+            "title": "Device-to-Mobile Security",
+            "description": "Our IoT solutions prioritize device-to-mobile security, ensuring safe and seamless communication between devices and applications."
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "productsSection": {
+      "backgroundImage": "../../public/images/corner-shelf.png",
+      "content": {
+        "heading": "CRM",
+        "description": "Augmented Transformations provides Microsoft Dynamics CRM to unlock valuable customer insights and enhance experiences, helping organizations become more customer-centric. At Augmented Transformations, we offer Microsoft Dynamics CRM to unlock the full potential of your customer data. With advanced analytics and AI-driven insights, Dynamics CRM helps you understand customer needs, preferences, and behaviors. Gain a 360-degree view of customer interactions, personalize experiences, and drive growth with AI insights."
+      },
+      "features": [
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Customer Data Management"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Marketing Automation"
+        },
+        {
+          "icon": "../../public/images/tick-icon.png",
+          "text": "Integration and Scalability"
+        }
+      ],
+      "productImage": "../../public/images/crm-prod.webp"
+    }
+  }
+  

@@ -6,7 +6,7 @@ export const Comp3 = () => {
                     <h5>Driving digital evolution with intelligent solutions that enhance outcomes, combining cutting-edge technology with industry expertise to create lasting value</h5>
                     <div className="row mt-5">
                         <div className="col-md-6">
-                            <div className="img-wrap">
+                            <div className="img-wrap img-shadow">
                                 <img src="../../public/images/ai-cloud-concept-with-robot-hand1.png" className="img-fluid" alt="" />
                             </div>
                         </div>

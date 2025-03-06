@@ -1,6 +1,23 @@
-.header{
+/* .header{
     padding: 1rem 0;
     background-color: #ffffff;
+} */
+.header {
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.scrolled {
+  padding: 0.5rem 0;
+  background-color: rgba(255, 255, 255, 0.95); /* Slight transparency */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
   .navbar-nav {
     background-color: #f8f9fa;
@@ -9,6 +26,11 @@
     padding: 0 15px !important;
   
   }
+  /* Add shadow & slight color tweak when scrolled */
+.scrolled .navbar-nav {
+  background-color: #f1f3f5; /* Slightly darker for better visibility */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); /* Light shadow */
+}
   .navbar-nav .nav-link{
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -18,5 +40,9 @@
     justify-content: center;
   }
   .navbar-toggler:focus{
-    box-shadow: none;
+    box-shadow: none !important;
   }
+  /* Smoothly hide the navbar menu */
+.collapse {
+  transition: height 0.4s ease-in-out !important;
+}

@@ -149,10 +149,10 @@ const ProjectSlider = () => {
         }
       </div> */}
 
-      <div class="projects-section">
+      <div className="projects-section">
         <h2>See All Projects</h2>
-        <div class="projects-wrapper">
-          <div class="project-card grid grid-two-cols">
+        <div className="projects-wrapper">
+          <div className="project-card grid grid-two-cols">
             {/* <div className="row"> */}
             <div className="project-content">
               <div className="dot-align">
@@ -168,7 +168,7 @@ const ProjectSlider = () => {
             {/* </div> */}
 
           </div>
-          <div class="project-card grid grid-two-cols">
+          <div className="project-card grid grid-two-cols">
             <div className="project-content">
               <div className="dot-align">
                 <div className="signal-dot"></div>

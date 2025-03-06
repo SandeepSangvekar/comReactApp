@@ -1,0 +1,26 @@
+{
+    "banner": {
+      "heading": "Custom Software Development",
+      "image": "../../public/images/corner-shelf.png",
+      "title": "Why Choose Us for Software Development?",
+      "description": "We excel in developing custom software solutions that drive efficiency and innovation. Our focus is on delivering reliable, scalable, and secure software tailored to your unique requirements."
+    },
+    "serviceCards": [
+      {
+        "image": "../../public/images/mob-icon.png",
+        "title": "Our Expertise in Software Development",
+        "description": "We design and develop robust software solutions that optimize your operations, improve productivity, and align perfectly with your business processes."
+      },
+      {
+        "image": "../../public/images/ideas-icon.png",
+        "title": "Your Vision, Our Mission",
+        "description": "Collaborate with us to build software that reflects your vision, ensuring it meets the highest standards of quality and functionality."
+      },
+      {
+        "image": "../../public/images/que-icon.png",
+        "title": "Why Choose Us?",
+        "description": "Our commitment to innovation and excellence ensures that every software solution we deliver is impactful, reliable, and future-ready."
+      }
+    ]
+  }
+  
