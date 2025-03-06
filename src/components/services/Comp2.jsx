@@ -5,7 +5,7 @@ export const Comp2 = () =>{
           <div className="custom-container">
             <h3>Tool & Technologies</h3>
             <div className="toolTech-img">
-              <img src="../../public/images/tool-tech.svg" className="img-fluid" alt="" />
+              <img src="/images/tool-tech.svg" className="img-fluid" alt="" />
             </div>
           </div>
         </div>

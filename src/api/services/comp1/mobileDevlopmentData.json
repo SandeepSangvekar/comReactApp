@@ -1,23 +1,23 @@
 {
     "banner": {
       "heading": "Mobile Development",
-      "image": "../../public/images/corner-shelf.png",
+      "image": "/images/corner-shelf.png",
       "title": "Why Choose Us for Mobile App Development?",
       "description": "Our team specializes in creating feature-rich, user-friendly mobile applications that align with your business objectives. From seamless performance to innovative designs, we ensure your app stands out in a competitive market."
     },
     "serviceCards": [
       {
-        "image": "../../public/images/mob-icon.png",
+        "image": "/images/mob-icon.png",
         "title": "Our Expertise in Mobile App Development",
         "description": "We deliver high-quality mobile applications with robust performance and intuitive user interfaces, leveraging native technologies or Flutter's cross-platform capabilities."
       },
       {
-        "image": "../../public/images/ideas-icon.png",
+        "image": "/images/ideas-icon.png",
         "title": "Your Ideas, Brought to Life",
         "description": "Transform your concepts into impactful mobile solutions with our expertise in creating apps that are functional, scalable, and tailored to your audience."
       },
       {
-        "image": "../../public/images/que-icon.png",
+        "image": "/images/que-icon.png",
         "title": "Why Choose Us?",
         "description": "We prioritize your business goals by delivering innovative mobile solutions that combine creativity, technical excellence, and cost-efficiency."
       }

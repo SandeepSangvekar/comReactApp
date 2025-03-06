@@ -1,25 +1,25 @@
 {
     "productsSection": {
-      "backgroundImage": "../../public/images/corner-shelf.png",
+      "backgroundImage": "/images/corner-shelf.png",
       "content": {
         "heading": "Video Analytics Solution (VAS)",
         "description": "At Augmented Transformations, we are dedicated to providing innovative solutions that enhance safety, security, and efficiency in various industries. Our state-of-the-art Video Analytics Solution is designed to leverage the power of artificial intelligence and computer vision to deliver real-time insights and actionable data. With a range of advanced features and use cases, our solution offers comprehensive safety and security solutions for organizations across different sectors. We are committed to delivering cutting-edge solutions that transform the way organizations approach safety, security, and efficiency. Contact us today to learn more about our Video Analytics Solution (VAS) and how it can benefit your specific needs."
       },
       "features": [
         {
-          "icon": "../../public/images/tick-icon.png",
+          "icon": "/images/tick-icon.png",
           "text": "Quality Assurance through CCTV"
         },
         {
-          "icon": "../../public/images/tick-icon.png",
+          "icon": "/images/tick-icon.png",
           "text": "Safety Gear Detection"
         },
         {
-          "icon": "../../public/images/tick-icon.png",
+          "icon": "/images/tick-icon.png",
           "text": "Facial Recognition"
         }
       ],
-      "productImage": "../../public/images/prod-img1.webp"
+      "productImage": "/images/prod-img1.webp"
     }
   }
   

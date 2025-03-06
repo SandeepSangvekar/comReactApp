@@ -1,25 +1,25 @@
 {
     "productsSection": {
-      "backgroundImage": "../../public/images/corner-shelf.png",
+      "backgroundImage": "/images/corner-shelf.png",
       "content": {
         "heading": "Asset Management System",
         "description": "Asset management software refers to a application designed to track, organize, and manage an organization’s assets efficiently. It provides businesses with a centralized system to monitor and control various types of assets, including physical equipment, inventory, software licenses, intellectual property, and more. Asset management plays a crucial role in businesses of all sizes and industries. It involves tracking, organizing, and optimizing assets to maximize their value and ensure their effective utilization. Assets can include physical items like equipment, machinery, and vehicles, as well as intangible assets such as software licenses and intellectual property."
       },
       "features": [
         {
-          "icon": "../../public/images/tick-icon.png",
+          "icon": "/images/tick-icon.png",
           "text": "Cost Efficiency"
         },
         {
-          "icon": "../../public/images/tick-icon.png",
+          "icon": "/images/tick-icon.png",
           "text": "Maintenance and Downtime Reduction"
         },
         {
-          "icon": "../../public/images/tick-icon.png",
+          "icon": "/images/tick-icon.png",
           "text": "Compliance and Risk Management"
         }
       ],
-      "productImage": "../../public/images/ams-prod.webp"
+      "productImage": "/images/ams-prod.webp"
     }
   }
   

@@ -12,7 +12,7 @@ export const successStories = [
             }
         ],
         "image": {
-            "src": "../../public/images/suc-img1.webp",
+            "src": "/images/suc-img1.webp",
             "alt": ""
         }
     },
@@ -29,7 +29,7 @@ export const successStories = [
             }
         ],
         "image": {
-            "src": "../../public/images/suc-img2.webp",
+            "src": "/images/suc-img2.webp",
             "alt": ""
         }
     },
@@ -46,7 +46,7 @@ export const successStories = [
             }
         ],
         "image": {
-            "src": "../../public/images/suc-img3.webp",
+            "src": "/images/suc-img3.webp",
             "alt": ""
         }
     },
@@ -63,7 +63,7 @@ export const successStories = [
             }
         ],
         "image": {
-            "src": "../../public/images/suc-img4.webp",
+            "src": "/images/suc-img4.webp",
             "alt": ""
         }
     },
@@ -80,7 +80,7 @@ export const successStories = [
             }
         ],
         "image": {
-            "src": "../../public/images/suc-img5.webp",
+            "src": "/images/suc-img5.webp",
             "alt": ""
         }
     },
@@ -97,7 +97,7 @@ export const successStories = [
             }
         ],
         "image": {
-            "src": "../../public/images/suc-img6.webp",
+            "src": "/images/suc-img6.webp",
             "alt": ""
         }
     },
@@ -114,7 +114,7 @@ export const successStories = [
             }
         ],
         "image": {
-            "src": "../../public/images/suc-img7.webp",
+            "src": "/images/suc-img7.webp",
             "alt": ""
         }
     }
