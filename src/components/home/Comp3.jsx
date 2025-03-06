@@ -7,7 +7,7 @@ export const Comp3 = () => {
                     <div className="row mt-5">
                         <div className="col-md-6">
                             <div className="img-wrap img-shadow">
-                                <img src="../../public/images/ai-cloud-concept-with-robot-hand1.png" className="img-fluid" alt="" />
+                                <img src="/images/ai-cloud-concept-with-robot-hand1.png" className="img-fluid" alt="" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -23,7 +23,7 @@ export const Comp3 = () => {
                                     <tbody>
                                         <tr>
                                             <td className="list-icon">
-                                                <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                                                <img src="/images/tick-icon.png" className="img-fluid" />
                                             </td>
                                             <td className="list-txt" style={{ 'color': '#343434' }}>
                                                 Spawning AI Workspace
@@ -31,7 +31,7 @@ export const Comp3 = () => {
                                         </tr>
                                         <tr>
                                             <td className="list-icon">
-                                                <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                                                <img src="/images/tick-icon.png" className="img-fluid" />
                                             </td>
                                             <td className="list-txt" style={{ 'color': '#343434' }}>
                                                 GPU Orchestration
@@ -39,7 +39,7 @@ export const Comp3 = () => {
                                         </tr>
                                         <tr>
                                             <td className="list-icon">
-                                                <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                                                <img src="/images/tick-icon.png" className="img-fluid" />
                                             </td>
                                             <td className="list-txt" style={{ 'color': '#343434' }}>
                                                 Multi-Framework Support
@@ -69,7 +69,7 @@ export const Comp3 = () => {
                                     <tbody>
                                         <tr>
                                             <td className="list-icon">
-                                                <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                                                <img src="/images/tick-icon.png" className="img-fluid" />
                                             </td>
                                             <td className="list-txt" style={{ 'color': '#343434' }}>
                                             Quality Assurance through CCTV
@@ -77,7 +77,7 @@ export const Comp3 = () => {
                                         </tr>
                                         <tr>
                                             <td className="list-icon">
-                                                <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                                                <img src="/images/tick-icon.png" className="img-fluid" />
                                             </td>
                                             <td className="list-txt" style={{ 'color': '#343434' }}>
                                             Safety Gear Detection
@@ -85,7 +85,7 @@ export const Comp3 = () => {
                                         </tr>
                                         <tr>
                                             <td className="list-icon">
-                                                <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                                                <img src="/images/tick-icon.png" className="img-fluid" />
                                             </td>
                                             <td className="list-txt" style={{ 'color': '#343434' }}>
                                             Facial Recognition
@@ -101,7 +101,7 @@ export const Comp3 = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="img-wrap">
-                                <img src="../../public/images/VAS-img.png" className="img-fluid" alt="" />
+                                <img src="/images/VAS-img.png" className="img-fluid" alt="" />
                             </div>
 
                         </div>
@@ -109,7 +109,7 @@ export const Comp3 = () => {
                     <div className="row mt-5">
                         <div className="col-md-6">
                             <div className="img-wrap">
-                                <img src="../../public/images/iot-img.png" className="img-fluid" alt="" />
+                                <img src="/images/iot-img.png" className="img-fluid" alt="" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -125,7 +125,7 @@ export const Comp3 = () => {
                                     <tbody>
                                         <tr>
                                             <td className="list-icon">
-                                                <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                                                <img src="/images/tick-icon.png" className="img-fluid" />
                                             </td>
                                             <td className="list-txt" style={{ 'color': '#343434' }}>
                                             IOT Software & Telematic Devices
@@ -133,7 +133,7 @@ export const Comp3 = () => {
                                         </tr>
                                         <tr>
                                             <td className="list-icon">
-                                                <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                                                <img src="/images/tick-icon.png" className="img-fluid" />
                                             </td>
                                             <td className="list-txt" style={{ 'color': '#343434' }}>
                                             Data Security and Encryption
@@ -141,7 +141,7 @@ export const Comp3 = () => {
                                         </tr>
                                         <tr>
                                             <td className="list-icon">
-                                                <img src="../../public/images/tick-icon.png" className="img-fluid" />
+                                                <img src="/images/tick-icon.png" className="img-fluid" />
                                             </td>
                                             <td className="list-txt" style={{ 'color': '#343434' }}>
                                             Firmware and Software
