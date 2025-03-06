@@ -10,7 +10,7 @@ export const Comp7 = () => {
                             <div className="custo-voices-card">
                                 <div className="custo-name-box">
                                     <div className="custo-name-box-content">
-                                        <img src="../../public/images/nilesh.png" className="img-fluid" alt="" />
+                                        <img src="/images/nilesh.png" className="img-fluid" alt="" />
                                         <div>
                                             <h6>Nilesh Sethi</h6>
                                             <small>Luxe Affairs</small>
@@ -24,7 +24,7 @@ export const Comp7 = () => {
                             <div className="custo-voices-card">
                                 <div className="custo-name-box">
                                     <div className="custo-name-box-content">
-                                        <img src="../../public/images/sameer.png" className="img-fluid" alt="" />
+                                        <img src="/images/sameer.png" className="img-fluid" alt="" />
                                         <div>
                                             <h6>Sameer Gandhi</h6>
                                             <small>Greenergy Sustainable LLP</small>
@@ -38,7 +38,7 @@ export const Comp7 = () => {
                             <div className="custo-voices-card">
                                 <div className="custo-name-box">
                                     <div className="custo-name-box-content">
-                                        <img src="../../public/images/nikhil.png" className="img-fluid" alt="" />
+                                        <img src="/images/nikhil.png" className="img-fluid" alt="" />
                                         <div>
                                             <h6>Nikhil Mishra</h6>
                                             <small>NM JALMAITREYA LLP</small>

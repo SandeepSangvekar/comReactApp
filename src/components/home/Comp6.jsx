@@ -7,23 +7,23 @@ export const Comp6 = () => {
                 </div>
                 <div className="customer-partner">
                     <div>
-                        <img src="../../public/images/DSC-img.png" className="img-fluid" alt="" />
+                        <img src="/images/DSC-img.png" className="img-fluid" alt="" />
                     </div>
                     <div>
-                        <img src="../../public/images/ajax-img.png" className="img-fluid" alt="" />
+                        <img src="/images/ajax-img.png" className="img-fluid" alt="" />
                     </div>
                     <div>
-                        <img src="../../public/images/ovino-img.png" className="img-fluid" alt="" />
+                        <img src="/images/ovino-img.png" className="img-fluid" alt="" />
 
                     </div>
                     <div>
-                        <img src="../../public/images/ace-img.png" className="img-fluid" alt="" />
+                        <img src="/images/ace-img.png" className="img-fluid" alt="" />
                     </div>
                     <div>
-                        <img src="../../public/images/apollo-img.png" className="img-fluid" alt="" />
+                        <img src="/images/apollo-img.png" className="img-fluid" alt="" />
                     </div>
                     <div>
-                        <img src="../../public/images/gepdec-img.png" className="img-fluid" alt="" />
+                        <img src="/images/gepdec-img.png" className="img-fluid" alt="" />
                     </div>
                 </div>
             </div>

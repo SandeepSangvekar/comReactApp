@@ -16,14 +16,14 @@ export const Comp4 = () => {
                                     <div className="dri-box-main grid grid-one-cols">
                                         <div className="box" style={{ backgroundColor: '#5F2DEE' }}>
                                             <div className="dri-icon-main">
-                                                <img src="../../public/images/white-gears-icon.png" alt="" />
+                                                <img src="/images/white-gears-icon.png" alt="" />
                                                 <span>100</span>
                                             </div>
                                             <p>Solutions Provided</p>
                                         </div>
                                         <div className="box" style={{ backgroundColor: '#B1BFFF' }}>
                                             <div className="dri-icon-main2">
-                                                <img src="../../public/images/tie-icon.png" alt="" />
+                                                <img src="/images/tie-icon.png" alt="" />
                                                 <span>200</span>
                                             </div>
                                             <p>Awards Received</p>
