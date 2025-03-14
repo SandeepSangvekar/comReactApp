@@ -1,7 +1,7 @@
 export const Comp6 = () => {
     return (
         <>
-            <div className="fullWrapper paddingY">
+            <div className="fullWrapper">
                 <div className="custom-container">
                     <h2 className="mb-4">Our customers & Partner</h2>
                 </div>

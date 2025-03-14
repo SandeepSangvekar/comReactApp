@@ -810,6 +810,33 @@
   }
 }
 
-
 /* comp5 css */
+.proj-img-mob{
+  display: none;
+}
+@media (max-width: 575.98px) {
+  .project-card{
+    max-width: 90% !important;
+  }
   
+}
+@media (max-width: 767.98px) {
+  .proj-img-mob{
+    display: block;
+  }
+  .proj-img-web{
+    display: none;
+  }
+  .img-wrap{
+    margin-bottom: 1rem;
+  }
+  .project-card{
+    max-width: 80%;
+  }
+  .project-content h4 {
+    font-size: 25px;
+  }
+  .custo-name-box{
+    width: 100%;
+  }
+}

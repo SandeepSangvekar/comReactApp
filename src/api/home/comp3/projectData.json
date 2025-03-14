@@ -1,0 +1,36 @@
+{
+    "title": "Driving digital evolution with intelligent solutions that enhance outcomes, combining cutting-edge technology with industry expertise to create lasting value",
+    "sections": [
+      {
+        "title": "AI-Hub",
+        "description": "AI-Hub is a robust platform designed for container orchestration in GPU-enabled environments. It seamlessly handles multi-node operations and accommodates various AI/ML frameworks, ensuring optimal performance and adaptability.",
+        "image": "/images/ai-cloud-concept-with-robot-hand1.png",
+        "features": [
+          "Spawning AI Workspace",
+          "GPU Orchestration",
+          "Multi-Framework Support"
+        ]
+      },
+      {
+        "title": "Video Analytics Solution (VAS)",
+        "description": "Our state-of-the-art Video Analytics Solution is designed to leverage the power of artificial intelligence and computer vision to deliver real-time insights and actionable data. Our solution offers comprehensive safety and security solutions for organizations across different sectors.",
+        "image": "/images/VAS-img.png",
+        "features": [
+          "Quality Assurance through CCTV",
+          "Safety Gear Detection",
+          "Facial Recognition"
+        ]
+      },
+      {
+        "title": "Internet of Things (IoT)",
+        "description": "The internet of things helps people live and work smarter, as well as gain complete control over their lives. In addition to offering smart devices to automate homes, IoT is essential to business.",
+        "image": "/images/iot-img.png",
+        "features": [
+          "IOT Software & Telematic Devices",
+          "Data Security and Encryption",
+          "Firmware and Software"
+        ]
+      }
+    ]
+  }
+  
