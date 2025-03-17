@@ -13,8 +13,8 @@ export const RightContent = ({data}) => {
                         <p>{data.description}</p>
                         <table className="detailList2" style={{ 'margin': '2rem 0' }}>
                             <tbody>
-                                {data.features.map((item) => (
-                                    <tr>
+                                {data.features.map((item, index) => (
+                                    <tr key={index}>
                                         <td className="list-icon">
                                             <img src="/images/tick-icon.png" className="img-fluid" />
                                         </td>
