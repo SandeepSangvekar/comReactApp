@@ -843,4 +843,10 @@
   .waveBottom{
     height: 100px;
   }
+  .custo-voices-card{
+    padding: 1.4rem;
+  }
+  .custo-voices-card p{
+    line-height: 22px;
+  }
 }
