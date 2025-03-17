@@ -23,27 +23,8 @@ export const RightContent = ({data}) => {
                                         </td>
                                     </tr>
                                 ))}
-                                
-                                {/* <tr>
-                                    <td className="list-icon">
-                                        <img src="/images/tick-icon.png" className="img-fluid" />
-                                    </td>
-                                    <td className="list-txt" style={{ 'color': '#343434' }}>
-                                        GPU Orchestration
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="list-icon">
-                                        <img src="/images/tick-icon.png" className="img-fluid" />
-                                    </td>
-                                    <td className="list-txt" style={{ 'color': '#343434' }}>
-                                        Multi-Framework Support
-                                    </td>
-                                </tr> */}
-
                             </tbody>
                         </table>
-                        {/* <button className="btn btn-outline-primary">Learn more</button> */}
                         <button className="fancy-button">
                             Learn more <span className="arrow-bg"><i className="fas fa-chevron-right arrow"></i></span>
                         </button>
