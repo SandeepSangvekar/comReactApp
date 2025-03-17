@@ -32,3 +32,12 @@
   }
   
   /* SuccessStories */
+
+  @media (max-width: 767.98px) {
+    .suc-space {
+      margin: 1em 1em 0 1em;
+    }
+    .suc-container{
+      padding: 1rem;
+    }
+  }

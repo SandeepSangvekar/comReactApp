@@ -143,6 +143,9 @@
   .prod-content-grp li::marker {
     color: #5B8EFF; /* Blue color for bullets */
   }
+  .prod-content-grp li img {
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  }
 
   .pad-left0{
     padding-left: 0 !important;
@@ -170,7 +173,18 @@
   .prod-3rd-sec img{
     width:600px;
     border-radius: 30px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; */
+    /* box-shadow: rgba(91, 142, 255, 0.4) 5px 5px, 
+    rgba(91, 142, 255, 0.3) 10px 10px, 
+    rgba(91, 142, 255, 0.2) 15px 15px, 
+    rgba(91, 142, 255, 0.1) 20px 20px, 
+    rgba(91, 142, 255, 0.05) 25px 25px; */
+    
+    box-shadow: rgba(91, 142, 255, 0.4) 5px 5px, 
+    rgba(248, 249, 250, 0.3) 10px 10px, 
+    rgba(91, 142, 255, 0.2) 15px 15px, 
+    rgba(248, 249, 250, 0.1) 20px 20px, 
+    rgba(91, 142, 255, 0.05) 25px 25px;
   }
   .mid-odd-img-mob{
     display: none;
