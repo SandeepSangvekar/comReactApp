@@ -22,24 +22,6 @@ export const LeftContent = ({ data }) => {
                                         </td>
                                     </tr>
                                 ))}
-
-                                {/* <tr>
-                                    <td className="list-icon">
-                                        <img src="/images/tick-icon.png" className="img-fluid" />
-                                    </td>
-                                    <td className="list-txt" style={{ 'color': '#343434' }}>
-                                        Safety Gear Detection
-                                    </td>
-                                </tr> */}
-                                {/* <tr>
-                                    <td className="list-icon">
-                                        <img src="/images/tick-icon.png" className="img-fluid" />
-                                    </td>
-                                    <td className="list-txt" style={{ 'color': '#343434' }}>
-                                        Facial Recognition
-                                    </td>
-                                </tr> */}
-
                             </tbody>
                         </table>
                         <button className="fancy-button">
@@ -51,7 +33,6 @@ export const LeftContent = ({ data }) => {
                     <div className="img-wrap proj-img-web">
                         <img src={data.image} className="img-fluid" alt="" />
                     </div>
-
                 </div>
             </div>
         </>

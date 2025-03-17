@@ -1,5 +1,4 @@
 export const RightContent = ({ data }) => {
-    console.log('data', data);
     return (
         <>
             <div className="grid grid-two-cols">
@@ -9,7 +8,6 @@ export const RightContent = ({ data }) => {
                 <div className="exp-content-right">
                     <h2>{data.title}</h2>
                     <p>{data.description}</p>
-                    {/* <button className="btn btn-dark">Learn More</button> */}
                     <button className="custom-button">
                         Learn more <span className="arrow2"><i className="fa-solid fa-arrow-right"></i></span>
                     </button>
