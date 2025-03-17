@@ -158,6 +158,9 @@
   .right-car-img img{
     height: auto !important;
   }
+  p{
+    font-size: 15px;
+  }
 }
 
 

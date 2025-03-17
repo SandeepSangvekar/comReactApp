@@ -811,9 +811,10 @@
 }
 
 /* comp5 css */
-.proj-img-mob{
+.proj-img-mob, .exp-img-mob{
   display: none;
 }
+
 @media (max-width: 575.98px) {
   .project-card{
     max-width: 90% !important;
@@ -821,10 +822,10 @@
   
 }
 @media (max-width: 767.98px) {
-  .proj-img-mob{
+  .proj-img-mob, .exp-img-mob{
     display: block;
   }
-  .proj-img-web{
+  .proj-img-web, .exp-img-web{
     display: none;
   }
   .img-wrap{
@@ -834,9 +835,12 @@
     max-width: 80%;
   }
   .project-content h4 {
-    font-size: 25px;
+    font-size: 22px;
   }
   .custo-name-box{
     width: 100%;
+  }
+  .waveBottom{
+    height: 100px;
   }
 }
