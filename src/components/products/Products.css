@@ -169,6 +169,8 @@
   }
   .prod-3rd-sec img{
     width:600px;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   }
   .mid-odd-img-mob{
     display: none;
@@ -223,7 +225,7 @@
       row-gap: 2rem;
     }
     .prod-content h5{
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
     .prod-img-align{
       text-align: center !important;
@@ -233,6 +235,9 @@
     }
     .mid-odd-img-web{
       display: none;
+    }
+    .product-headContent h3{
+      margin-bottom: 1rem;
     }
   }
   @media (max-width: 575.98px) {
@@ -249,8 +254,8 @@
       padding-right: 1em !important;
     }
     .text-container{
-      font-size: 2.2rem;
-      line-height: 34px;
+      font-size: 1.8rem;
+      line-height: 33px;
       margin-bottom: 1rem;
     }
     .highlight {
