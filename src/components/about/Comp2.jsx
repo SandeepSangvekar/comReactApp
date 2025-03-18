@@ -39,7 +39,7 @@ import cardData from '../../api/aboutOfferData.json';
 export const Comp2 = () => {
     return (
         <>
-            <div className="about2nd-sec">
+            <div className="about2nd-sec paddingY">
                 <div className="abt-top-content">
                     <h2 className="title">What Do We Offer?</h2>
                     <p className="description">

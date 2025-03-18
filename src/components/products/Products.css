@@ -10,7 +10,7 @@
 }
 .corner-shelf{
   /* background: url(/images/corner-shelf.png) no-repeat; */
-  height: 65px;
+  height: 4rem;
   /* background-size: contain; */
   /* background-position: center center; */
 }
@@ -252,6 +252,15 @@
     }
     .product-headContent h3{
       margin-bottom: 1rem;
+    }
+    .detailList2 {
+      margin: 1rem;
+    }
+    .corner-shelf{
+      height: 3rem;
+    }
+    .pro-bg{
+      padding-bottom: 3rem;
     }
   }
   @media (max-width: 575.98px) {
