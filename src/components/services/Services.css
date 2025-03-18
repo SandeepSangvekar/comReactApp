@@ -10,7 +10,7 @@
 }
 .corner-shelf{
   /* background: url(/images/corner-shelf.png) no-repeat; */
-  height: 65px;
+  height: 4rem;
   /* background-size: contain; */
   /* background-position: center center; */
 }
@@ -188,7 +188,25 @@
     .msg-img{
         float: right;
     }
-    
+
+    .ser-bg{
+        padding-bottom: 3rem;
+    }
+    .corner-shelf{
+        height: 3rem;
+    }
+    .service-headContent{
+        margin-bottom: 3rem;
+    }
+    .ser-heading{
+        position: sticky;
+        font-size: 2.5rem;
+        text-align: center;
+        transform: none;
+        top: auto;
+        left: auto;
+        margin-bottom: 1rem;
+    }
 }
 @media (max-width: 991.98px) { 
     .vert-card-center:nth-child(2) .vert-card{

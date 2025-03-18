@@ -407,9 +407,7 @@
   .content-wrap .card-text{
     text-align: justify;
   }
-  .paddingY{
-    padding: 4rem 0;
-  }
+  
   .comp-leftContent h2{
     background: linear-gradient(90deg, #5F2DEE, #0EE2F6);
     -webkit-background-clip: text;
@@ -482,11 +480,14 @@
   /* customer-voices */
 .custo-voices{
     background: url(/images/customer-voices-bg.webp);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     padding: 4rem 0;
     margin: 0 1rem;
     border-radius: 30px;
+    transition: background-position 0.3s ease-in-out;
+    will-change: background-position;
   }
   .custo-voices h5{
     text-align: center;
