@@ -1,4 +1,5 @@
  import { Link } from "react-router-dom"
+ import { NavLink } from "react-router-dom";
  import './Footer.css';
  export const Footer = () =>{
     return (
@@ -10,7 +11,7 @@
                         <div className="row">
                             <div className="col-md-8 col-sm-6">
                                 <div className="footer-logo">
-                                    <img src="/images/white-logo.png" className="img-fluid" alt="" />
+                                <NavLink to="/"><img src="/images/white-logo.png" className="img-fluid" alt="" /></NavLink>
                                 </div>
                                 <p>We specialize in crafting data-driven solutions tailored to meet the distinct challenges encountered by organizations across a diverse range of industry verticals.</p>
                                 <ul className="social-main">
@@ -24,11 +25,11 @@
                                     <h3>Links</h3>
                                     <hr />
                                     <ul className="footer-menu">
-                                        <li><a href="">About us</a></li>
+                                        <li><NavLink to="/about">About us</NavLink></li>
                                         <li><a href="">Meet our Team</a></li>
                                         <li><a href="">News & Media</a></li>
                                         <li><a href="">Our Projects</a></li>
-                                        <li><a href="">Contacts</a></li>
+                                        <li><NavLink to="/contact">Contacts</NavLink></li>
                                     </ul>
                             </div>
                         </div>
