@@ -113,3 +113,9 @@
     width: 16px;
     height: 16px;
   }
+
+  @media (max-width: 767.98px) {
+    .social-main{
+      margin-bottom: 1rem;
+    }
+  }
