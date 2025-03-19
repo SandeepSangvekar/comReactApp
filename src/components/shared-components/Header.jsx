@@ -20,14 +20,22 @@ export const Header = () =>{
         };
     }, []);
 
+    // const closeNavbar = () => {
+    //     setTimeout(() => {
+    //         const navbar = document.getElementById("navbarSupportedContent");
+    //         if (navbar && navbar.classList.contains("show")) {
+    //             new bootstrap.Collapse(navbar).hide(); // Properly closes navbar after navigation
+    //         }
+    //     }, 200); // Small delay ensures React Router updates first
+    // };
+
     const closeNavbar = () => {
-        setTimeout(() => {
-            const navbar = document.getElementById("navbarSupportedContent");
-            if (navbar && navbar.classList.contains("show")) {
-                new bootstrap.Collapse(navbar).hide(); // Properly closes navbar after navigation
-            }
-        }, 200); // Small delay ensures React Router updates first
-    };
+        const navbar = document.getElementById("navbarSupportedContent");
+        if (navbar && navbar.classList.contains("show")) {
+          navbar.classList.remove("show"); // For direct class manipulation
+        }
+      };
+      
     
     return (
         <>
