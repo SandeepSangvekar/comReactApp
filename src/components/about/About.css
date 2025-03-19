@@ -80,7 +80,8 @@
     /* animation: scroll-animation 12s linear infinite;
     animation-play-state: running; */
     animation: scroll-animation 15s linear infinite;
-    width: max-content; /* Ensure the content width adapts dynamically */
+    /* width: max-content; Ensure the content width adapts dynamically */
+    width: fit-content;
   }
   
   
