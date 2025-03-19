@@ -10,14 +10,16 @@ export const RightContentCard = ({ data }) => {
                     </div>
                     <div className="col-md-6">
                         <h3 className="mb-3">{data.title}</h3>
-                        {data.sections.map((section, index) => {
-                            return (
-                                <div key={index}>
-                                    <h6>{section.heading}</h6>
-                                    <p>{section.content}</p>
-                                </div>
-                            )
-                        })}
+                        <div className="suc-content">
+                            {data.sections.map((section, index) => {
+                                return (
+                                    <div key={index}>
+                                        <h6>{section.heading}</h6>
+                                        <p>{section.content}</p>
+                                    </div>
+                                )
+                            })}
+                        </div>
                     </div>
 
                 </div>

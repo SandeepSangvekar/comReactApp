@@ -12,14 +12,14 @@ const ProjectSlider = () => {
   const [startX, setStartx] = useState(0);
   const [scrollLeft, setScroll] = useState(0);
   const brands = [
-    { id: 1, name: 'Apple', src: 'images/iPhone15Pro.png' },
-    { id: 2, name: 'Apple2', src: 'images/iPhone15Pro.png' },
-    { id: 3, name: 'Apple3', src: 'images/iPhone15Pro.png' },
-    { id: 4, name: 'Apple4', src: 'images/iPhone15Pro.png' },
-    { id: 5, name: 'Apple5', src: 'images/iPhone15Pro.png' },
-    { id: 6, name: 'Apple6', src: 'images/iPhone15Pro.png' },
-    { id: 8, name: 'Apple7', src: 'images/iPhone15Pro.png' },
-    { id: 9, name: 'Apple7', src: 'images/iPhone15Pro.png' },
+    { id: 1, name: 'Apple', src: 'images/project-card-1.png' },
+    { id: 2, name: 'Apple2', src: 'images/project-card-1.png' },
+    { id: 3, name: 'Apple3', src: 'images/project-card-1.png' },
+    { id: 4, name: 'Apple4', src: 'images/project-card-1.png' },
+    { id: 5, name: 'Apple5', src: 'images/project-card-1.png' },
+    { id: 6, name: 'Apple6', src: 'images/project-card-1.png' },
+    { id: 8, name: 'Apple7', src: 'images/project-card-1.png' },
+    { id: 9, name: 'Apple7', src: 'images/project-card-1.png' },
   ]
   const handleMouseDown = () => {
     setIsMouseDown(true);
@@ -45,23 +45,23 @@ const ProjectSlider = () => {
       title: "Smart Meter Data Management System",
       description:
         "Developed a robust Smart Meter Data Management System, surpassing customer expectations.",
-      imgUrl: "images/iPhone15Pro.png",
+      imgUrl: "images/project-card-1.png",
     },
     {
       title: "Quality Assurance CCTV",
       description:
         "To address quality assurance deployed our Video Analytics integrated with high-resolution along the production line.",
-      imgUrl: "images/iPhone15Pro.png",
+      imgUrl: "images/project-card-1.png",
     },
     {
       title: "Supply Chain Optimization",
       description: "Optimized supply chains with predictive data solutions.",
-      imgUrl: "images/iPhone15Pro.png",
+      imgUrl: "images/project-card-1.png",
     },
     {
       title: "Automated Quality Control",
       description: "Enhanced manufacturing efficiency with automation.",
-      imgUrl: "images/iPhone15Pro.png",
+      imgUrl: "images/project-card-1.png",
     },
   ];
 
@@ -81,7 +81,7 @@ const ProjectSlider = () => {
                     </div>
                   </div>
                   <div className="col-md-6">
-                    <img src="/images/iPhone15Pro.png" className="img-fluid rounded-start" alt="..." />
+                    <img src="/images/project-card-1.png" className="img-fluid rounded-start" alt="..." />
                   </div>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const ProjectSlider = () => {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      <img src="/images/iPhone15Pro.png" className="img-fluid rounded-start" alt="..." />
+                      <img src="/images/project-card-1.png" className="img-fluid rounded-start" alt="..." />
                     </div>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const ProjectSlider = () => {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      <img src="/images/iPhone15Pro.png" className="img-fluid rounded-start" alt="..." />
+                      <img src="/images/project-card-1.png" className="img-fluid rounded-start" alt="..." />
                     </div>
                   </div>
                 </div>
@@ -163,7 +163,7 @@ const ProjectSlider = () => {
               <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
             </div>
             <div className="project-img">
-              <img src="/images/iPhone15Pro.png" className='img-fluid' alt="" />
+              <img src="/images/project-card-1.png" className='img-fluid' alt="" />
             </div>
             {/* </div> */}
 
@@ -178,7 +178,20 @@ const ProjectSlider = () => {
               <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
             </div>
             <div className="project-img">
-              <img src="/images/iPhone15Pro.png" className='img-fluid' alt="" />
+              <img src="/images/project-card-2.png" className='img-fluid' alt="" />
+            </div>
+          </div>
+          <div className="project-card grid grid-two-cols">
+            <div className="project-content">
+              <div className="dot-align">
+                <div className="signal-dot"></div>
+              </div>
+              <h4>Safety Gear Detection</h4>
+              <p>We provided them with our state-of-the-art Video Analytics Solution designed to leverage the power of artificial intelligence and computer vision to deliver real-time insights and actionable data.</p>
+              <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div className="project-img">
+              <img src="/images/project-card-3.png" className='img-fluid' alt="" />
             </div>
           </div>
 
@@ -215,7 +228,7 @@ const ProjectSlider = () => {
                 </div>
                 <div className="col-md-6">
                   <img
-                    src="/images/iPhone15Pro.png"
+                    src="/images/project-card-1.png"
                     className="img-fluid rounded-start"
                     alt="..."
                   />
@@ -241,7 +254,7 @@ const ProjectSlider = () => {
                 </div>
                 <div className="col-md-6">
                   <img
-                    src="/images/iPhone15Pro.png"
+                    src="/images/project-card-1.png"
                     className="img-fluid rounded-start"
                     alt="..."
                   />
