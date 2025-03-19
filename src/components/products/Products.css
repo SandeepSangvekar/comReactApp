@@ -227,6 +227,7 @@
     }
     .prod-3rd-sec img{
       border-radius: 30px;
+      width: 90%;
     }
     .pad-left0{
       padding-left: 2rem !important;
@@ -271,7 +272,7 @@
       padding-right: 1rem !important;
     }
     .prod-content {
-      padding: 0 1rem;
+      padding: 0 0.5rem;
     }
     .prod-pad-right {
       padding-right: 1em !important;

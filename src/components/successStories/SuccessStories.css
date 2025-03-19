@@ -37,6 +37,15 @@
   .suc-img-mob{
     display: none;
   }
+  .suc-content p {
+    margin-bottom: 0;
+  }
+  .suc-content  {
+    display: grid;
+    row-gap: 1rem;
+  }
+
+
   /* SuccessStories */
 
   @media (max-width: 767.98px) {

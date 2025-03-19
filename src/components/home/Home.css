@@ -815,6 +815,10 @@
 .proj-img-mob, .exp-img-mob{
   display: none;
 }
+.project-img img{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 24px;
+}
 
 @media (max-width: 575.98px) {
   .project-card{
