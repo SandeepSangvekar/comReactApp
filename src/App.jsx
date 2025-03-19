@@ -13,10 +13,12 @@ import { Career } from "./components/career/Career";
 import { Contact } from "./components/contact/Contact";
 import { SuccessStories } from "./components/successStories/SuccessStories";
 import { useParams } from "react-router-dom";
+import ScrollToTop from "../src/components/shared-components/ScrollToTop"
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <main className="main-content">
           <Routes>
