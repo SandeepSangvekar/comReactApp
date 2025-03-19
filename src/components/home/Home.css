@@ -860,7 +860,10 @@
   .custo-voices-card p{
     line-height: 22px;
   }
-  .img-content h2{
+  .img-content h2, .exp-content-right h2, .exp-content-left h2{
     font-size: 21px;
+  }
+  .driving-ino h5{
+    margin-bottom: 1rem;
   }
 }
