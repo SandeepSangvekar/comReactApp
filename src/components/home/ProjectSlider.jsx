@@ -66,7 +66,7 @@ const ProjectSlider = () => {
   ];
 
   return (
-    <div className="fullWrapper paddingY">
+    <div className="fullWrapper paddingB">
       {/* <div className="project-slider">
               <h3>See All Projects</h3>
               <div className="card custom-card mb-3" style={{"maxWidth": '870px'}}>
