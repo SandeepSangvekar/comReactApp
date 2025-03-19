@@ -52,7 +52,6 @@ export const Comp2 = () => {
                         {cardData.map((item, index) => (
                             <div key={index} className="scroll-card">
                                 <div className="card-icon">
-                                    {/* {item.icon} */}
                                     <img src={item.icon} className="img-fluid" alt="" />
                                 </div>
                                 <h3 className="card-title">{item.title}</h3>
@@ -63,13 +62,23 @@ export const Comp2 = () => {
                         {cardData.map((item, index) => (
                             <div key={`dup-${index}`} className="scroll-card">
                                 <div className="card-icon">
-                                    {/* {item.icon} */}
                                     <img src={item.icon} className="img-fluid" alt="" />
                                 </div>
                                 <h3 className="card-title">{item.title}</h3>
                                 <p className="card-text">{item.description}</p>
                             </div>
                         ))}
+
+                        {/* {cardData.concat(cardData).map((item, index) => (
+                        <div key={index} className="scroll-card">
+                            <div className="card-icon">
+                            <img src={item.icon} className="img-fluid" alt={item.title} />
+                            </div>
+                            <h3 className="card-title">{item.title}</h3>
+                            <p className="card-text">{item.description}</p>
+                        </div>
+                        ))} */}
+
                     </div>
                 </div>
             </div>

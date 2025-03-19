@@ -77,8 +77,11 @@
   
   .scroll-content {
     display: flex;
-    animation: scroll-animation 12s linear infinite;
-    animation-play-state: running;
+    /* animation: scroll-animation 12s linear infinite;
+    animation-play-state: running; */
+    animation: scroll-animation 15s linear infinite;
+    /* width: max-content; Ensure the content width adapts dynamically */
+    width: fit-content;
   }
   
   
@@ -93,6 +96,7 @@
     white-space: normal;
     overflow: hidden;
     transition: transform 0.3s ease;
+    white-space: normal;
   }
   
   .scroll-card:hover {
@@ -121,7 +125,8 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+      /* transform: translateX(-50%); */
+      transform: translateX(calc(-250px * 5)); /* Adjust this to the number of cards */
     }
   }
   
