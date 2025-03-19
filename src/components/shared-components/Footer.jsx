@@ -25,6 +25,7 @@
                                     <h3>Links</h3>
                                     <hr />
                                     <ul className="footer-menu">
+                                        <li><NavLink to="/">Home</NavLink></li>
                                         <li><NavLink to="/about">About us</NavLink></li>
                                         <li><a href="">Meet our Team</a></li>
                                         <li><a href="">News & Media</a></li>
