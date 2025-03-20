@@ -880,4 +880,8 @@
   .driving-ino h5{
     margin-bottom: 1rem;
   }
+  .customer-partner img {
+    max-width: 100px;
+    margin: 0 0.5rem;
+  }
 }
