@@ -46,3 +46,9 @@
 .collapse {
   transition: height 0.4s ease-in-out !important;
 }
+
+/* .nav-link.active {
+    font-weight: 400;
+    color: #ff6600 !important;
+    border-bottom: 2px solid #ff6600;
+} */
