@@ -471,12 +471,26 @@
     margin: 0 4rem;
     text-align: justify;
   }
-  .customer-partner{
+  /* .customer-partner{
     background-color: #E9E9E9;
     padding: 0.5rem 0;
     display: flex;
     justify-content: space-evenly;
-  }
+  } */
+
+  .customer-partner {
+    background-color: #E9E9E9;
+    padding: 0.5rem 0;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.customer-partner img {
+  max-width: 130px;
+  margin: 0 1rem;
+}
   /* customer-voices */
 .custo-voices{
     background: url(/images/customer-voices-bg.webp);
@@ -723,7 +737,7 @@
   }
   .dot-align{
     display: flex;
-    justify-content: end;
+    justify-content: start;
   }
   
   .project-button {
@@ -817,14 +831,20 @@
 }
 .project-img img{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 24px;
+  border-radius: 20px;
 }
 
 @media (max-width: 575.98px) {
   .project-card{
     max-width: 90% !important;
   }
-  
+  .project-img{
+    display: flex;
+    align-items: end;
+  }
+  .project-img img{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
 }
 @media (max-width: 767.98px) {
   .proj-img-mob, .exp-img-mob{
@@ -853,5 +873,11 @@
   }
   .custo-voices-card p{
     line-height: 22px;
+  }
+  .img-content h2, .exp-content-right h2, .exp-content-left h2{
+    font-size: 21px;
+  }
+  .driving-ino h5{
+    margin-bottom: 1rem;
   }
 }

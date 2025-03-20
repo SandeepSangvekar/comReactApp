@@ -176,6 +176,10 @@
     font-size: 15px;
     line-height: 27px;
   }
+  .tringle-box h4{
+    left: 33% !important;
+    right: 1% !important;
+  }
 }
 
 

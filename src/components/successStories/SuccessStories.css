@@ -65,5 +65,7 @@
     .right-suc-img-wrap{
       margin-bottom: 1rem;
     }
-    
+    .suc-container h3{
+      font-size: 20px;
+    }
   }
