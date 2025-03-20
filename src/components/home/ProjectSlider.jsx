@@ -159,7 +159,7 @@ const ProjectSlider = () => {
                 <div className="signal-dot"></div>
               </div>
               <h4>Smart Meter Data Management System</h4>
-              <p>Developed a robust Smart Meter Data Management System, surpassing customer expectations.</p>
+              <p>Developed a robust Smart Meter Data Management System, exceeding customer expectations with advanced capabilities.</p>
               <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
             </div>
             <div className="project-img">
@@ -187,7 +187,7 @@ const ProjectSlider = () => {
                 <div className="signal-dot"></div>
               </div>
               <h4>Safety Gear Detection</h4>
-              <p>We provided them with our state-of-the-art Video Analytics Solution designed to leverage the power of artificial intelligence and computer vision to deliver real-time insights and actionable data.</p>
+              <p>We provided our advanced AI-powered Video Analytics Solution for real-time insights and actionable data using computer vision.</p>
               <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
             </div>
             <div className="project-img">
