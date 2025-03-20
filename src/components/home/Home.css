@@ -471,12 +471,26 @@
     margin: 0 4rem;
     text-align: justify;
   }
-  .customer-partner{
+  /* .customer-partner{
     background-color: #E9E9E9;
     padding: 0.5rem 0;
     display: flex;
     justify-content: space-evenly;
-  }
+  } */
+
+  .customer-partner {
+    background-color: #E9E9E9;
+    padding: 0.5rem 0;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.customer-partner img {
+  max-width: 130px;
+  margin: 0 1rem;
+}
   /* customer-voices */
 .custo-voices{
     background: url(/images/customer-voices-bg.webp);
@@ -723,7 +737,7 @@
   }
   .dot-align{
     display: flex;
-    justify-content: end;
+    justify-content: start;
   }
   
   .project-button {
