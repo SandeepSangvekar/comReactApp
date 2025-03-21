@@ -135,6 +135,12 @@
   .main-content{
     margin-top: 85px;
   }
+  .footer-logo{
+    margin-bottom: 1rem !important;
+  }
+  .footer-logo img{
+    width: 140px !important;
+  }
 }
 @media (max-width: 575.98px) {
   .custo-voices-card{
