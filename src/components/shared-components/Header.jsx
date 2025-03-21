@@ -36,7 +36,8 @@ export const Header = () =>{
         }
       };
       
-    
+      const isProductsActive = location.pathname.startsWith("/products");
+      const isServicesActive = location.pathname.startsWith("/services");
     return (
         <>
         {/* <div className="header"> */}
@@ -53,15 +54,15 @@ export const Header = () =>{
                                 
                             </span>
                             <li className="nav-item">
-                            <NavLink className="nav-link active" aria-current="page" to="/" onClick={closeNavbar}>Home</NavLink>
+                            <NavLink className="nav-link" aria-current="page" to="/" onClick={closeNavbar}>Home</NavLink>
                             </li>
                             <li className="nav-item">
                             <NavLink className="nav-link" to="/about" onClick={closeNavbar}>About Us</NavLink>
                             </li>
                             <li className="nav-item dropdown">
-                            <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
-                            </NavLink>
+                            </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><NavLink className="dropdown-item" to="/products/1" onClick={closeNavbar}>Video Analytics Solutions</NavLink></li>
                                 <li><NavLink className="dropdown-item" to="/products/2" onClick={closeNavbar}>AI-Hub</NavLink></li>
@@ -76,9 +77,9 @@ export const Header = () =>{
                             </ul>
                             </li>
                             <li className="nav-item dropdown">
-                            <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
-                            </NavLink>
+                            </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><NavLink className="dropdown-item" to="/services/1" onClick={closeNavbar}>Mobile Development</NavLink></li>
                                 <li><NavLink className="dropdown-item" to="/services/2" onClick={closeNavbar}>Custom Software Development</NavLink></li>
