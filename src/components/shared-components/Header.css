@@ -22,8 +22,8 @@
   .navbar-nav {
     background-color: #f8f9fa;
     width: fit-content;
-    border-radius: 20px;
-    padding: 0 15px !important;
+    border-radius: 52px;
+    padding: 5px 15px !important;
   
   }
   /* Add shadow & slight color tweak when scrolled */
@@ -46,7 +46,13 @@
 .collapse {
   transition: height 0.4s ease-in-out !important;
 }
-
+.headerLogo{
+  width: 150px;
+}
+.navbar{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
 /* .nav-link.active {
     font-weight: 400;
     color: #ff6600 !important;
