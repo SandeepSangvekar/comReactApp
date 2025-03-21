@@ -200,7 +200,8 @@
   .navbar-nav{
     width: 100% !important;
     /* background-color: #ffffff !important; */
-    border-radius: none !important;
+    /* border-radius: none !important; */
+    border-radius: 15px !important;
   } 
 
 }
