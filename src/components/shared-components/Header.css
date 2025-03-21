@@ -53,8 +53,15 @@
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
-/* .nav-link.active {
+.nav-link.active {
     font-weight: 400;
-    color: #ff6600 !important;
-    border-bottom: 2px solid #ff6600;
-} */
+    background-color: #74acf5 !important;
+    /* border: 2px solid #74acf5 !important; */
+    border-radius: 20px;
+    color: #ffffff !important;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #bf3e48;
+}
+.nav-item .dropdown-toggle{
+  color: none;
+}
