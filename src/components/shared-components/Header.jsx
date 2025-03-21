@@ -43,7 +43,7 @@ export const Header = () =>{
         <div className={`header ${isScrolled ? "scrolled" : ""}`}>
             <nav className="navbar navbar-expand-lg navbar-white">
                 <div className="container-fluid custom-container">
-                    <NavLink className="navbar-brand" to="/">Logo</NavLink>
+                    <NavLink className="navbar-brand" to="/"><img src="/images/at-logo.png" className="img-fluid headerLogo" alt="" /></NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>

@@ -32,7 +32,8 @@
   grid-template-columns: repeat(3, 1fr);
 }
 .main-content {
-  margin-top: 88px; /* Adjust based on header height */
+  /* margin-top: 88px;  */
+  margin-top: 92px; /* Adjust based on header height */
 }
 @media (max-width: 767.98px) {
   .custom-container{
@@ -127,6 +128,12 @@
   .paddingB{
     padding-top: 0rem;
     padding-bottom: 3rem;
+  }
+  .headerLogo{
+    width: 130px !important;
+  }
+  .main-content{
+    margin-top: 85px;
   }
 }
 @media (max-width: 575.98px) {
