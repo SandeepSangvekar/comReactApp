@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { useState } from 'react';
+import projectSliderData from '../../api/home/projectSlider/projectSliderData.json'
 
 const ProjectSlider = () => {
   const itemRef = useRef(null);
@@ -152,48 +153,24 @@ const ProjectSlider = () => {
       <div className="projects-section">
         <h2>See All Projects</h2>
         <div className="projects-wrapper">
-          <div className="project-card grid grid-two-cols">
-            {/* <div className="row"> */}
-            <div className="project-content">
-              <div className="dot-align">
-                <div className="signal-dot"></div>
+          {projectSliderData.projects?.map((item, index) => (
+            <div key={index} className="project-card grid grid-two-cols">
+              <div className="project-content">
+                <div className="dot-align">
+                  <div className="signal-dot"></div>
+                </div>
+                <h4>{item.title}</h4>
+                <p>{item.description}</p>
+                <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
               </div>
-              <h4>Smart Meter Data Management System</h4>
-              <p>Developed a robust Smart Meter Data Management System, exceeding customer expectations with advanced capabilities.</p>
-              <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
-            </div>
-            <div className="project-img">
-              <img src="/images/project-card-1.png" className='img-fluid' alt="" />
-            </div>
-            {/* </div> */}
+              <div className="project-img">
+                <img src={item.image} className='img-fluid' alt="" />
+              </div>
 
-          </div>
-          <div className="project-card grid grid-two-cols">
-            <div className="project-content">
-              <div className="dot-align">
-                <div className="signal-dot"></div>
-              </div>
-              <h4>Quality Assurance CCTV</h4>
-              <p>To address quality assurance, deployed Video Analytics integrated with high-resolution cameras along the production line.</p>
-              <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
             </div>
-            <div className="project-img">
-              <img src="/images/project-card-2.png" className='img-fluid' alt="" />
-            </div>
-          </div>
-          <div className="project-card grid grid-two-cols">
-            <div className="project-content">
-              <div className="dot-align">
-                <div className="signal-dot"></div>
-              </div>
-              <h4>Safety Gear Detection</h4>
-              <p>We provided our advanced AI-powered Video Analytics Solution for real-time insights and actionable data using computer vision.</p>
-              <button className="btn project-button"><i className="fa-solid fa-arrow-right"></i></button>
-            </div>
-            <div className="project-img">
-              <img src="/images/project-card-3.png" className='img-fluid' alt="" />
-            </div>
-          </div>
+          )
+          )}
+
 
         </div>
       </div>

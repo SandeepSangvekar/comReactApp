@@ -1,0 +1,20 @@
+{
+    "projects": [
+      {
+        "title": "Smart Meter Data Management System",
+        "description": "Developed a robust Smart Meter Data Management System, exceeding customer expectations with advanced capabilities.",
+        "image": "/images/project-card-1.png"
+      },
+      {
+        "title": "Quality Assurance CCTV",
+        "description": "To address quality assurance, deployed Video Analytics integrated with high-resolution cameras along the production line.",
+        "image": "/images/project-card-2.png"
+      },
+      {
+        "title": "Safety Gear Detection",
+        "description": "We provided our advanced AI-powered Video Analytics Solution for real-time insights and actionable data using computer vision.",
+        "image": "/images/project-card-3.png"
+      }
+    ]
+  }
+  
