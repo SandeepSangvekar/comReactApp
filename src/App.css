@@ -78,14 +78,16 @@
     /* padding: 0 1rem; */
   }
   .career-content2{
-    min-height: 300px !important;
+    min-height: 200px !important;
   }
   .tringle-box{
     width: 100% !important;
-    min-height: 300px !important;
+    min-height: 200px !important;
   }
   .tringle-box h4{
     text-align: start !important;
+    left: 48%;
+    right: 5%;
   }
   .mob-tab-gy{
     --bs-gutter-y: 2rem !important;
@@ -95,7 +97,7 @@
   }
   .career-icon img{
     margin-bottom: 1rem;
-    width: 120px;
+    width: 110px;
   }
   .career-content {
     padding: 3rem 1rem !important;
@@ -190,8 +192,9 @@
     line-height: 27px;
   }
   .tringle-box h4{
-    left: 33% !important;
+    left: 40% !important;
     right: 1% !important;
+    font-size: 18px;
   }
 }
 

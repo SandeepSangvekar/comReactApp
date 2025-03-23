@@ -4,7 +4,7 @@ export const Comp6 = () => {
         <>
             <div className="fullWrapper">
                 <div className="custom-container">
-                    <h2 className="mb-4">Our customers & Partner</h2>
+                    <h2 className="mb-4 cust-title">Our customers & Partner</h2>
                 </div>
                 {/* <div className="customer-partner">
                     <div>

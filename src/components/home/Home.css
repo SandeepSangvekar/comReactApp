@@ -696,8 +696,11 @@
   .projects-section h2 {
     margin-left: 16px;
     color: #7FB7FF;
+    font-weight: 600;
   }
-  
+  .cust-title{
+    font-weight: 600;
+  }
   .projects-wrapper {
     display: flex;
     overflow-x: scroll;
@@ -844,6 +847,9 @@
   }
   .project-img img{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .project-content h4{
+    font-size: 20px !important;
   }
 }
 @media (max-width: 767.98px) {
