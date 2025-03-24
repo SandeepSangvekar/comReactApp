@@ -156,10 +156,10 @@
     }
     .mob-title {
         color: #407BFF;
-        font-size: 3.2rem;
+        font-size: 2.7rem;
     }
     .mob-content h3{
-        font-size: 2.7rem !important;
+        font-size: 2.5rem !important;
     }
     .mob-title, .mob-content, .mob-content p{
         text-align: center;
@@ -201,7 +201,7 @@
     }
     .ser-heading{
         position: sticky;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         text-align: center;
         transform: none;
         top: auto;
